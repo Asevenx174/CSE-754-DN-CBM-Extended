@@ -88,7 +88,7 @@ class FetchFeatures:
         torch.save(train_labels, os.path.join(
             args.probe_split_idxs_dir['img'], "all_labels_train.pth"))
         torch.save(train_val_labels, os.path.join(
-            args.probe_split_idxs_dir['img'], "all_labels_train.pth"))
+            args.probe_split_idxs_dir['img'], "all_labels_train_val.pth"))
         del output
 
         # val split

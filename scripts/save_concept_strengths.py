@@ -14,7 +14,7 @@ def save_concept_strengths(args, is_cc3m=False):
     if is_cc3m:
         features_path = os.path.join(args.data_dir_activations["img"], args.probe_split)
     else:
-        features_path = os.path.join(args.probe_data_dir_activations["img"], args.probe_split)
+        features_path=os.path.join(args.probe_data_dir_activations["img"],f"{args.probe_split}.pth")
     all_features = torch.load(features_path)
 
     print(f"Loaded concepts from: {features_path}")
