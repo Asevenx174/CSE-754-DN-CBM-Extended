@@ -154,6 +154,16 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Downloaded data, pretrained models, and generated experiment outputs
+data/
+SAE/
+probe/
+analysis/
+
+# Safety net for large PyTorch artifacts
+*.pt
+*.pth
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
