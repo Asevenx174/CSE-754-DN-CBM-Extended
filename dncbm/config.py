@@ -7,7 +7,7 @@ autoencoder_input_dim_dict = {'clip_RN50_out': 1024,
 data_dir_root = './data'
 save_dir_root = './SAE'
 probe_cs_save_dir_root = './probe'
-vocab_dir = './vocab'
+vocab_dir = "./data/vocab"
 analysis_dir = './analysis'
 
 
