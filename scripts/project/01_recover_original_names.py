@@ -81,3 +81,49 @@ def load_resources():
         )
 
     return decoder, text_embeddings, vocabulary, reference_names
+
+def recover_assignments(
+    decoder,
+    text_embeddings,
+    vocabulary,
+    device,
+):
+    decoder = decoder / decoder.norm(
+        dim=0,
+        keepdim=True,
+    ).clamp_min(1e-12)
+
+    embedding_norms = text_embeddings.norm(dim=1)
+
+    print(
+        "Text embedding norm range:",
+        float(embedding_norms.min()),
+        float(embedding_norms.max()),
+    )
+
+    if not torch.allclose(
+        embedding_norms,
+        torch.ones_like(embedding_norms),
+        atol=1e-3,
+        rtol=1e-3,
+    ):
+        raise ValueError(
+            "The original text embeddings are not unit-normalized."
+        )
+
+    similarity = (
+        text_embeddings.to(device)
+        @ decoder.to(device)
+    )
+
+    best_scores, best_indices = similarity.max(dim=0)
+
+    best_scores = best_scores.cpu()
+    best_indices = best_indices.cpu()
+
+    recovered_names = [
+        vocabulary[int(index)]
+        for index in best_indices
+    ]
+
+    return best_scores, best_indices, recovered_names
