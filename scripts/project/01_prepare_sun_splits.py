@@ -36,3 +36,24 @@ def parse_args():
     parser.add_argument("--minimum_test_support", type=int, default=30)
 
     return parser.parse_args()
+
+def create_splits(number_of_images, seed):
+    generator = torch.Generator().manual_seed(seed)
+    permutation = torch.randperm(
+        number_of_images,
+        generator=generator,
+    )
+
+    number_train = int(0.60 * number_of_images)
+    number_validation = int(0.20 * number_of_images)
+
+    train_end = number_train
+    validation_end = number_train + number_validation
+
+    return {
+        "train": permutation[:train_end],
+        "validation": permutation[
+            train_end:validation_end
+        ],
+        "test": permutation[validation_end:],
+    }
