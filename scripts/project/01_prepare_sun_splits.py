@@ -93,103 +93,103 @@ def calculate_support(dataset, splits, minimum_test_support):
 
     return rows
 
-    def save_outputs(dataset, splits, support_rows, args):
-        output_dir = Path(args.output_dir)
-        output_dir.mkdir(parents=True, exist_ok=True)
+def save_outputs(dataset, splits, support_rows, args):
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-        split_path = output_dir / "sample_splits.csv"
+    split_path = output_dir / "sample_splits.csv"
 
-        with split_path.open("w", newline="") as file:
-            writer = csv.writer(file)
-            writer.writerow([
-                "sample_id",
-                "split",
-                "relative_path",
-            ])
+    with split_path.open("w", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerow([
+            "sample_id",
+            "split",
+            "relative_path",
+        ])
 
-            for split_name, indices in splits.items():
-                for sample_id in indices.tolist():
-                    writer.writerow([
-                        sample_id,
-                        split_name,
-                        dataset.relative_paths[sample_id],
-                    ])
+        for split_name, indices in splits.items():
+            for sample_id in indices.tolist():
+                writer.writerow([
+                    sample_id,
+                    split_name,
+                    dataset.relative_paths[sample_id],
+                ])
 
-        support_path = output_dir / "concept_support.csv"
+    support_path = output_dir / "concept_support.csv"
 
-        with support_path.open("w", newline="") as file:
-            writer = csv.DictWriter(
-                file,
-                fieldnames=support_rows[0].keys(),
-            )
-            writer.writeheader()
-            writer.writerows(support_rows)
+    with support_path.open("w", newline="") as file:
+        writer = csv.DictWriter(
+            file,
+            fieldnames=support_rows[0].keys(),
+        )
+        writer.writeheader()
+        writer.writerows(support_rows)
 
-        valid_path = output_dir / "valid_concepts.txt"
+    valid_path = output_dir / "valid_concepts.txt"
 
-        valid_names = [
-            row["concept_name"]
-            for row in support_rows
-            if row["eligible"]
-        ]
+    valid_names = [
+        row["concept_name"]
+        for row in support_rows
+        if row["eligible"]
+    ]
 
-        valid_path.write_text(
-            "\n".join(valid_names) + "\n"
+    valid_path.write_text(
+        "\n".join(valid_names) + "\n"
+    )
+
+    summary = {
+        "seed": args.seed,
+        "label_rule": "agreement >= 2/3",
+        "number_of_images": len(dataset),
+        "number_of_attributes": len(dataset.attribute_names),
+        "split_sizes": {
+            name: len(indices)
+            for name, indices in splits.items()
+        },
+        "minimum_test_support": args.minimum_test_support,
+        "eligible_concepts": len(valid_names),
+    }
+
+    summary_path = output_dir / "split_summary.json"
+    summary_path.write_text(json.dumps(summary, indent=2))
+
+    return summary
+
+def main():
+    args = parse_args()
+
+    dataset = SUNAttributes(
+        annotation_dir=args.annotation_dir,
+        image_root=args.image_root,
+    )
+
+    splits = create_splits(
+        number_of_images=len(dataset),
+        seed=args.seed,
+    )
+
+    combined = torch.cat(list(splits.values()))
+
+    if len(torch.unique(combined)) != len(dataset):
+        raise RuntimeError(
+            "Split IDs overlap or some images are missing."
         )
 
-        summary = {
-            "seed": args.seed,
-            "label_rule": "agreement >= 2/3",
-            "number_of_images": len(dataset),
-            "number_of_attributes": len(dataset.attribute_names),
-            "split_sizes": {
-                name: len(indices)
-                for name, indices in splits.items()
-            },
-            "minimum_test_support": args.minimum_test_support,
-            "eligible_concepts": len(valid_names),
-        }
+    support_rows = calculate_support(
+        dataset=dataset,
+        splits=splits,
+        minimum_test_support=args.minimum_test_support,
+    )
 
-        summary_path = output_dir / "split_summary.json"
-        summary_path.write_text(json.dumps(summary, indent=2))
+    summary = save_outputs(
+        dataset=dataset,
+        splits=splits,
+        support_rows=support_rows,
+        args=args,
+    )
 
-        return summary
-
-    def main():
-        args = parse_args()
-
-        dataset = SUNAttributes(
-            annotation_dir=args.annotation_dir,
-            image_root=args.image_root,
-        )
-
-        splits = create_splits(
-            number_of_images=len(dataset),
-            seed=args.seed,
-        )
-
-        combined = torch.cat(list(splits.values()))
-
-        if len(torch.unique(combined)) != len(dataset):
-            raise RuntimeError(
-                "Split IDs overlap or some images are missing."
-            )
-
-        support_rows = calculate_support(
-            dataset=dataset,
-            splits=splits,
-            minimum_test_support=args.minimum_test_support,
-        )
-
-        summary = save_outputs(
-            dataset=dataset,
-            splits=splits,
-            support_rows=support_rows,
-            args=args,
-        )
-
-        print(json.dumps(summary, indent=2))
+    print(json.dumps(summary, indent=2))
 
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
