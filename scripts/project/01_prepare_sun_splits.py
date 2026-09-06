@@ -57,3 +57,38 @@ def create_splits(number_of_images, seed):
         ],
         "test": permutation[validation_end:],
     }
+
+def calculate_support(dataset, splits, minimum_test_support):
+    rows = []
+
+    for concept_id, concept_name in enumerate(
+        dataset.attribute_names
+    ):
+        row = {
+            "concept_id": concept_id,
+            "concept_name": concept_name,
+        }
+
+        for split_name, indices in splits.items():
+            split_labels = dataset.binary_labels[
+                indices, concept_id
+            ]
+
+            positives = int(split_labels.sum())
+            negatives = int(len(indices) - positives)
+
+            row[f"{split_name}_positive"] = positives
+            row[f"{split_name}_negative"] = negatives
+
+        row["eligible"] = (
+            row["train_positive"] > 0
+            and row["train_negative"] > 0
+            and row["validation_positive"] > 0
+            and row["validation_negative"] > 0
+            and row["test_positive"] >= minimum_test_support
+            and row["test_negative"] >= minimum_test_support
+        )
+
+        rows.append(row)
+
+    return rows
