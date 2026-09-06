@@ -188,6 +188,14 @@ def main():
         args=args,
     )
 
+    sun_vocab_path = Path(args.output_dir) / "sun102_vocabulary.txt"
+
+    with sun_vocab_path.open("w", encoding="utf-8") as file:
+        for attribute_name in dataset.attribute_names:
+            file.write(f"{attribute_name}\n")
+
+    summary["sun_vocabulary_path"] = str(sun_vocab_path)
+
     print(json.dumps(summary, indent=2))
 
 
