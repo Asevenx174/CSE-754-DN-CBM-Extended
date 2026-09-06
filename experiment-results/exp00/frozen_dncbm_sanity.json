@@ -1,0 +1,16 @@
+{
+  "n_images_checked": 8,
+  "feature_dimension": 1024,
+  "n_sae_atoms": 8192,
+  "reconstruction_mse_per_element": 0.00013599501107819378,
+  "reconstruction_cosine_mean": 0.9807069301605225,
+  "mean_active_atoms_per_image": 534.75,
+  "pilot_dead_atom_rate": 0.7645263671875,
+  "decoder_norm_min": 0.9999992251396179,
+  "decoder_norm_mean": 1.0,
+  "decoder_norm_max": 1.0000008344650269,
+  "seconds": 0.24340079300009165,
+  "images_per_second": 32.86760039437089,
+  "peak_gpu_memory_mb": 73.09765625,
+  "atom_index_check": "passed: activation columns and decoder columns both equal n_sae_atoms"
+}

@@ -1,0 +1,5 @@
+Python 3.11.13
+PyTorch: 2.8.0+cu128
+CUDA: 12.8
+GPU: NVIDIA GeForce RTX 4060 Ti
+NVIDIA GeForce RTX 4060 Ti, 610.62, 8188 MiB
