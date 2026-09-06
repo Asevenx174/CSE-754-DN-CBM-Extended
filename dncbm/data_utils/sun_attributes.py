@@ -84,7 +84,7 @@ class SUNAttributes(Dataset):
                 f"First missing image: {missing[0]}"
             )
 
-        def __len__(self):
+    def __len__(self):
         return len(self.image_paths)
 
     def __getitem__(self, index):
