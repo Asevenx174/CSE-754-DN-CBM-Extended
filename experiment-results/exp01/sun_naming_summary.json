@@ -1,0 +1,22 @@
+{
+  "decoder_shape": [
+    1024,
+    8192
+  ],
+  "text_embedding_shape": [
+    102,
+    1024
+  ],
+  "similarity_shape": [
+    102,
+    8192
+  ],
+  "number_of_atoms": 8192,
+  "number_of_sun_concepts": 102,
+  "concepts_receiving_atoms": 102,
+  "minimum_cosine": -0.10223929584026337,
+  "mean_cosine": 0.08038380742073059,
+  "maximum_cosine": 0.30057936906814575,
+  "atom_assignments_path": "experiment-results/exp01/sun_atom_assignments.csv",
+  "group_sizes_path": "experiment-results/exp01/sun_group_sizes.csv"
+}
