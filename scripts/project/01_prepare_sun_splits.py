@@ -154,3 +154,42 @@ def calculate_support(dataset, splits, minimum_test_support):
         summary_path.write_text(json.dumps(summary, indent=2))
 
         return summary
+
+    def main():
+        args = parse_args()
+
+        dataset = SUNAttributes(
+            annotation_dir=args.annotation_dir,
+            image_root=args.image_root,
+        )
+
+        splits = create_splits(
+            number_of_images=len(dataset),
+            seed=args.seed,
+        )
+
+        combined = torch.cat(list(splits.values()))
+
+        if len(torch.unique(combined)) != len(dataset):
+            raise RuntimeError(
+                "Split IDs overlap or some images are missing."
+            )
+
+        support_rows = calculate_support(
+            dataset=dataset,
+            splits=splits,
+            minimum_test_support=args.minimum_test_support,
+        )
+
+        summary = save_outputs(
+            dataset=dataset,
+            splits=splits,
+            support_rows=support_rows,
+            args=args,
+        )
+
+        print(json.dumps(summary, indent=2))
+
+
+    if __name__ == "__main__":
+        main()
