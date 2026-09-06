@@ -1,0 +1,93 @@
+sailing/ boating
+driving
+biking
+transporting things or people
+sunbathing
+vacationing/ touring
+hiking
+climbing
+camping
+reading
+studying/ learning
+teaching/ training
+research
+diving
+swimming
+eating
+socializing
+congregating
+waiting in line/ queuing
+competing
+sports
+exercise
+playing
+spectating/ being in an audience
+farming
+shopping
+working
+using tools
+digging
+conducting business
+praying
+fencing
+railing
+wire
+trees
+grass
+vegetation
+shrubbery
+foliage
+leaves
+flowers
+asphalt
+pavement
+shingles
+carpet
+brick
+tiles
+concrete
+metal
+paper
+wood (not part of a tree)
+vinyl/ linoleum
+rubber/ plastic
+cloth
+sand
+rock/stone
+dirt/soil
+glass
+waves/ surf
+ocean
+running water
+still water
+ice
+snow
+clouds
+natural light
+direct sun/sunny
+electric/indoor lighting
+aged/ worn
+glossy
+matte
+sterile
+moist/ damp
+dry
+dirty
+rusty
+warm
+cold
+natural
+man-made
+open area
+semi-enclosed area
+enclosed area
+far-away horizon
+no horizon
+rugged scene
+mostly vertical components
+mostly horizontal components
+symmetrical
+cluttered space
+scary
+soothing
+stressful

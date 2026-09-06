@@ -1,0 +1,13 @@
+{
+  "seed": 49,
+  "label_rule": "agreement >= 2/3",
+  "number_of_images": 14340,
+  "number_of_attributes": 102,
+  "split_sizes": {
+    "train": 8604,
+    "validation": 2868,
+    "test": 2868
+  },
+  "minimum_test_support": 30,
+  "eligible_concepts": 93
+}
