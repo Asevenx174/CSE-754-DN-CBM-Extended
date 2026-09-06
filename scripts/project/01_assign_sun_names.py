@@ -52,3 +52,10 @@ def load_geometry():
     ).clamp_min(1e-12)
 
     return decoder, text_embeddings, concepts
+
+def assign_names(decoder, text_embeddings):
+    similarity = text_embeddings @ decoder
+
+    best_scores, best_concept_indices = similarity.max(dim=0)
+
+    return similarity, best_scores, best_concept_indices
