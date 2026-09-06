@@ -83,3 +83,22 @@ class SUNAttributes(Dataset):
                 f"{len(missing)} annotated images are missing. "
                 f"First missing image: {missing[0]}"
             )
+
+        def __len__(self):
+        return len(self.image_paths)
+
+    def __getitem__(self, index):
+        image = Image.open(
+            self.image_paths[index]
+        ).convert("RGB")
+
+        if self.transform is not None:
+            image = self.transform(image)
+
+        return {
+            "image": image,
+            "labels": self.binary_labels[index],
+            "agreement": self.agreement[index],
+            "sample_id": index,
+            "relative_path": self.relative_paths[index],
+        }
