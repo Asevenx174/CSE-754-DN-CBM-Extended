@@ -1,0 +1,10 @@
+{
+  "status": "documented implementation, not exact reproduction",
+  "selection_split": "validation",
+  "threshold_objective": "maximize Youden J (TPR - FPR)",
+  "tie_rule": "highest threshold",
+  "available_attributes": 100,
+  "optimized_thresholds": 96,
+  "all_negative_fallbacks": 4,
+  "test_metrics_computed": false
+}
