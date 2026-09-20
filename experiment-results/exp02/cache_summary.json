@@ -1,0 +1,19 @@
+{
+  "images": 14340,
+  "clip_features_shape": [
+    14340,
+    1024
+  ],
+  "sae_activations_shape": [
+    14340,
+    8192
+  ],
+  "binary_labels_shape": [
+    14340,
+    102
+  ],
+  "finite_features": true,
+  "finite_activations": true,
+  "sample_order_verified": true,
+  "output": "data/exp02/sun_frozen_cache.pth"
+}
