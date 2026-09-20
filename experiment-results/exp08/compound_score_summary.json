@@ -1,0 +1,16 @@
+{
+  "status": "documented implementation, not exact reproduction",
+  "samples": 14340,
+  "sun_attributes": 102,
+  "available_attributes": 100,
+  "unavailable_attributes": [
+    "man-made",
+    "soothing"
+  ],
+  "retained_atoms": 867,
+  "minimum_atoms_per_available_group": 1,
+  "mean_atoms_per_available_group": 8.67,
+  "maximum_atoms_per_available_group": 27,
+  "aggregation": "raw maximum",
+  "score_cache": "data/exp08/compound_scores.pth"
+}
