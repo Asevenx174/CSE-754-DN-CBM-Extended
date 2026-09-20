@@ -1,0 +1,16 @@
+{
+  "status": "documented implementation, not exact reproduction",
+  "test_images": 2868,
+  "sun_attributes": 102,
+  "score": "cosine(CLIP image embedding, CLIP text embedding)",
+  "prompt_template": "a photo of {concept}",
+  "threshold_selection_split": "validation",
+  "threshold_objective": "maximize Youden J (TPR - FPR)",
+  "optimized_thresholds": 102,
+  "mean_image_jaccard_all_102": 0.1789613697358452,
+  "macro_test_auroc_all_102": 0.7695350454364668,
+  "macro_test_ap_all_102": 0.24398946444501912,
+  "published_clip_jaccard_reference": 0.22,
+  "reference_is_not_a_reproduction_target": true,
+  "prediction_cache": "data/exp08/clip_test_predictions.pth"
+}
