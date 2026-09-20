@@ -1,0 +1,211 @@
+protocol,category,atom_id,assigned_name,mapped_sun_attribute,example_type,rank,sample_id,relative_path,activation,binary_label,worker_agreement
+A,high_geometry_high_detection,8146,flowers,flowers,top_activation,1,5105,f/field/wild/sun_acklffcwmayvnfqm.jpg,0.18749867379665375,1,0.6666666865348816
+A,high_geometry_high_detection,8146,flowers,flowers,top_activation,2,5388,f/florist_shop/indoor/sun_acwkallqszgnsigg.jpg,0.15892530977725983,1,1.0
+A,high_geometry_high_detection,8146,flowers,flowers,top_activation,3,5386,f/florist_shop/indoor/sun_abzaovrydrhxobzy.jpg,0.15839767456054688,1,1.0
+A,high_geometry_high_detection,8146,flowers,flowers,top_activation,4,5384,f/florist_shop/indoor/sun_aaucvhuznofecifl.jpg,0.1556636244058609,1,0.6666666865348816
+A,high_geometry_high_detection,8146,flowers,flowers,top_activation,5,5397,f/florist_shop/indoor/sun_akbxvrhkcyoohvhw.jpg,0.1519654244184494,0,0.3333333432674408
+A,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,1,5397,f/florist_shop/indoor/sun_akbxvrhkcyoohvhw.jpg,0.1519654244184494,0,0.3333333432674408
+A,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,2,14166,w/woodland/sun_bcupxmrbywkxcnjn.jpg,0.13518476486206055,0,0.3333333432674408
+A,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,3,9146,o/orchard/sun_aikiadfygjhpxbxf.jpg,0.1295640617609024,0,0.3333333432674408
+A,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,4,3344,c/cloister/outdoor/sun_ahkzfdspdbdpnxao.jpg,0.1131892204284668,0,0.3333333432674408
+A,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,5,5282,f/flea_market/indoor/sun_ajafulxcmqpclolt.jpg,0.10945998132228851,0,0.0
+A,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,1,9943,p/podium/outdoor/sun_aiohgiefelyhdctp.jpg,0.0,1,1.0
+A,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,2,11271,s/schoolyard/sun_bhinwfrcewspkyax.jpg,0.0,1,0.6666666865348816
+A,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,3,14241,y/yard/sun_admkqrbkeigjffud.jpg,0.0,1,1.0
+A,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,4,10591,r/rectory/sun_ajugmttwpoysoddk.jpg,0.0,1,0.6666666865348816
+A,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,5,8337,m/mission/sun_bteufuyczkxcavmg.jpg,0.0,1,0.6666666865348816
+A,high_geometry_low_detection,1956,trees,trees,top_activation,1,798,a/auto_factory/sun_arlffdiapzbqztfs.jpg,0.0,0,0.0
+A,high_geometry_low_detection,1956,trees,trees,top_activation,2,8224,m/military_hospital/sun_aiuwutvppdtxgrqv.jpg,0.0,0,0.0
+A,high_geometry_low_detection,1956,trees,trees,top_activation,3,5890,g/gatehouse/sun_bmjcjcuzqdojkzbo.jpg,0.0,0,0.3333333432674408
+A,high_geometry_low_detection,1956,trees,trees,top_activation,4,8863,n/nursery/sun_abntzfcsdveljbup.jpg,0.0,0,0.0
+A,high_geometry_low_detection,1956,trees,trees,top_activation,5,4806,e/embassy/sun_aeejhzqvmmqxbjgn.jpg,0.0,0,0.0
+A,high_geometry_low_detection,1956,trees,trees,high_scoring_negative,1,1251,b/barn/sun_agdllchaeokpxyxh.jpg,0.0,0,0.0
+A,high_geometry_low_detection,1956,trees,trees,high_scoring_negative,2,825,a/auto_racing_paddock/sun_bbjrtdufnwfcxibg.jpg,0.0,0,0.0
+A,high_geometry_low_detection,1956,trees,trees,high_scoring_negative,3,8224,m/military_hospital/sun_aiuwutvppdtxgrqv.jpg,0.0,0,0.0
+A,high_geometry_low_detection,1956,trees,trees,high_scoring_negative,4,5890,g/gatehouse/sun_bmjcjcuzqdojkzbo.jpg,0.0,0,0.3333333432674408
+A,high_geometry_low_detection,1956,trees,trees,high_scoring_negative,5,8863,n/nursery/sun_abntzfcsdveljbup.jpg,0.0,0,0.0
+A,high_geometry_low_detection,1956,trees,trees,low_scoring_positive,1,10455,r/rainforest/sun_amcxpcrbnwrjefuv.jpg,0.0,1,1.0
+A,high_geometry_low_detection,1956,trees,trees,low_scoring_positive,2,8413,m/monastery/outdoor/sun_bmfvckkkwcxgxjdf.jpg,0.0,1,0.6666666865348816
+A,high_geometry_low_detection,1956,trees,trees,low_scoring_positive,3,9423,p/parking_lot/sun_aionayojqxvkpdvi.jpg,0.0,1,0.6666666865348816
+A,high_geometry_low_detection,1956,trees,trees,low_scoring_positive,4,12966,t/train_railway/sun_asgcpxncztcqwiyz.jpg,0.0,1,0.6666666865348816
+A,high_geometry_low_detection,1956,trees,trees,low_scoring_positive,5,6271,h/hacienda/sun_biyevxzfkkmlyjon.jpg,0.0,1,1.0
+A,high_geometry_low_detection,3048,reading,reading,top_activation,1,798,a/auto_factory/sun_arlffdiapzbqztfs.jpg,0.0,0,0.0
+A,high_geometry_low_detection,3048,reading,reading,top_activation,2,8224,m/military_hospital/sun_aiuwutvppdtxgrqv.jpg,0.0,0,0.3333333432674408
+A,high_geometry_low_detection,3048,reading,reading,top_activation,3,5890,g/gatehouse/sun_bmjcjcuzqdojkzbo.jpg,0.0,0,0.0
+A,high_geometry_low_detection,3048,reading,reading,top_activation,4,8863,n/nursery/sun_abntzfcsdveljbup.jpg,0.0,0,0.0
+A,high_geometry_low_detection,3048,reading,reading,top_activation,5,4806,e/embassy/sun_aeejhzqvmmqxbjgn.jpg,0.0,0,0.0
+A,high_geometry_low_detection,3048,reading,reading,high_scoring_negative,1,10976,r/root_cellar/sun_ayqtqkmudtxnwupn.jpg,0.0,0,0.0
+A,high_geometry_low_detection,3048,reading,reading,high_scoring_negative,2,8863,n/nursery/sun_abntzfcsdveljbup.jpg,0.0,0,0.0
+A,high_geometry_low_detection,3048,reading,reading,high_scoring_negative,3,4806,e/embassy/sun_aeejhzqvmmqxbjgn.jpg,0.0,0,0.0
+A,high_geometry_low_detection,3048,reading,reading,high_scoring_negative,4,5052,f/fence/sun_bfvcpmedzmwheqbb.jpg,0.0,0,0.0
+A,high_geometry_low_detection,3048,reading,reading,high_scoring_negative,5,13810,w/waterfall/block/sun_amllmcnybcmhnqmj.jpg,0.0,0,0.3333333432674408
+A,high_geometry_low_detection,3048,reading,reading,low_scoring_positive,1,1540,b/beach_house/sun_agdlhkbtdisterhs.jpg,0.0,1,0.6666666865348816
+A,high_geometry_low_detection,3048,reading,reading,low_scoring_positive,2,1601,b/bedroom/sun_aaewcdjenprecvoc.jpg,0.0,1,1.0
+A,high_geometry_low_detection,3048,reading,reading,low_scoring_positive,3,1781,b/bistro/indoor/sun_aasprukpcyklohuq.jpg,0.0,1,0.6666666865348816
+A,high_geometry_low_detection,3048,reading,reading,low_scoring_positive,4,7714,l/library/indoor/sun_arpsgsiitqymxexz.jpg,0.0,1,0.6666666865348816
+A,high_geometry_low_detection,3048,reading,reading,low_scoring_positive,5,10696,r/resort/sun_dpwmewmslzrptxyr.jpg,0.0,1,0.6666666865348816
+A,low_geometry_high_detection,4473,hiking,hiking,top_activation,1,7043,i/islet/sun_agikppzmlldwspas.jpg,0.0766131803393364,0,0.0
+A,low_geometry_high_detection,4473,hiking,hiking,top_activation,2,11140,s/sandbar/sun_adovqdocqlbuyiix.jpg,0.06638845801353455,0,0.0
+A,low_geometry_high_detection,4473,hiking,hiking,top_activation,3,1918,b/bog/sun_aqyfjrfcbnvrrisk.jpg,0.062373898923397064,0,0.0
+A,low_geometry_high_detection,4473,hiking,hiking,top_activation,4,698,a/athletic_field/outdoor/sun_btvklotqiutgnddr.jpg,0.06226735562086105,0,0.3333333432674408
+A,low_geometry_high_detection,4473,hiking,hiking,top_activation,5,115,a/airport/airport/sun_avyxtpthsxbigblb.jpg,0.06180219352245331,0,0.0
+A,low_geometry_high_detection,4473,hiking,hiking,high_scoring_negative,1,7043,i/islet/sun_agikppzmlldwspas.jpg,0.0766131803393364,0,0.0
+A,low_geometry_high_detection,4473,hiking,hiking,high_scoring_negative,2,11140,s/sandbar/sun_adovqdocqlbuyiix.jpg,0.06638845801353455,0,0.0
+A,low_geometry_high_detection,4473,hiking,hiking,high_scoring_negative,3,1918,b/bog/sun_aqyfjrfcbnvrrisk.jpg,0.062373898923397064,0,0.0
+A,low_geometry_high_detection,4473,hiking,hiking,high_scoring_negative,4,698,a/athletic_field/outdoor/sun_btvklotqiutgnddr.jpg,0.06226735562086105,0,0.3333333432674408
+A,low_geometry_high_detection,4473,hiking,hiking,high_scoring_negative,5,115,a/airport/airport/sun_avyxtpthsxbigblb.jpg,0.06180219352245331,0,0.0
+A,low_geometry_high_detection,4473,hiking,hiking,low_scoring_positive,1,8425,m/moor/sun_blbwjzckgcprehyx.jpg,0.0,1,0.6666666865348816
+A,low_geometry_high_detection,4473,hiking,hiking,low_scoring_positive,2,11572,s/ski_jump/sun_bjfvregelvrttell.jpg,0.0,1,0.6666666865348816
+A,low_geometry_high_detection,4473,hiking,hiking,low_scoring_positive,3,13041,t/tree_farm/sun_adijivjifiuqtncf.jpg,0.0,1,0.6666666865348816
+A,low_geometry_high_detection,4473,hiking,hiking,low_scoring_positive,4,14019,w/wheat_field/sun_amhftfdjiroweslq.jpg,0.0,1,0.6666666865348816
+A,low_geometry_high_detection,4473,hiking,hiking,low_scoring_positive,5,5633,f/foundry/outdoor/sun_aqyuohqswlcaamrx.jpg,0.0,1,1.0
+A,low_geometry_low_detection,2627,hiking,hiking,top_activation,1,1646,b/beer_hall/sun_bicbxaqnqxvdlizz.jpg,0.058656442910432816,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,top_activation,2,12107,s/subway_interior/sun_afvtmplxucwpghnb.jpg,0.041536156088113785,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,top_activation,3,2585,c/car_interior/backseat/sun_afqfvsufutiqnwip.jpg,0.04039503261446953,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,top_activation,4,13376,v/van_interior/sun_bgqoywvkbjwkzeik.jpg,0.039451513439416885,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,top_activation,5,12986,t/train_station/outdoor/sun_alhsawcptyqiooss.jpg,0.038439106196165085,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,high_scoring_negative,1,1646,b/beer_hall/sun_bicbxaqnqxvdlizz.jpg,0.058656442910432816,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,high_scoring_negative,2,12107,s/subway_interior/sun_afvtmplxucwpghnb.jpg,0.041536156088113785,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,high_scoring_negative,3,2585,c/car_interior/backseat/sun_afqfvsufutiqnwip.jpg,0.04039503261446953,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,high_scoring_negative,4,13376,v/van_interior/sun_bgqoywvkbjwkzeik.jpg,0.039451513439416885,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,high_scoring_negative,5,12986,t/train_station/outdoor/sun_alhsawcptyqiooss.jpg,0.038439106196165085,0,0.0
+A,low_geometry_low_detection,2627,hiking,hiking,low_scoring_positive,1,9487,p/pasture/sun_acrjprsyfggvkvim.jpg,0.0,1,1.0
+A,low_geometry_low_detection,2627,hiking,hiking,low_scoring_positive,2,8288,m/mineshaft/sun_bjpzfrcgnfyqorud.jpg,0.0,1,1.0
+A,low_geometry_low_detection,2627,hiking,hiking,low_scoring_positive,3,6388,h/heath/sun_bjcnckaymyilynkg.jpg,0.0,1,0.6666666865348816
+A,low_geometry_low_detection,2627,hiking,hiking,low_scoring_positive,4,2798,c/castle/sun_aieefrkagxyksfuj.jpg,0.0,1,1.0
+A,low_geometry_low_detection,2627,hiking,hiking,low_scoring_positive,5,12064,s/strip_mine/sun_ayhnqyijvttvmkgv.jpg,0.0,1,1.0
+A,low_geometry_low_detection,3625,fencing,fencing,top_activation,1,798,a/auto_factory/sun_arlffdiapzbqztfs.jpg,0.0,0,0.0
+A,low_geometry_low_detection,3625,fencing,fencing,top_activation,2,8224,m/military_hospital/sun_aiuwutvppdtxgrqv.jpg,0.0,0,0.0
+A,low_geometry_low_detection,3625,fencing,fencing,top_activation,3,5890,g/gatehouse/sun_bmjcjcuzqdojkzbo.jpg,0.0,0,0.0
+A,low_geometry_low_detection,3625,fencing,fencing,top_activation,4,8863,n/nursery/sun_abntzfcsdveljbup.jpg,0.0,0,0.0
+A,low_geometry_low_detection,3625,fencing,fencing,top_activation,5,4806,e/embassy/sun_aeejhzqvmmqxbjgn.jpg,0.0,0,0.0
+A,low_geometry_low_detection,3625,fencing,fencing,high_scoring_negative,1,10985,r/rope_bridge/sun_adkwrcvuoqrcvods.jpg,0.0,0,0.0
+A,low_geometry_low_detection,3625,fencing,fencing,high_scoring_negative,2,825,a/auto_racing_paddock/sun_bbjrtdufnwfcxibg.jpg,0.0,0,0.3333333432674408
+A,low_geometry_low_detection,3625,fencing,fencing,high_scoring_negative,3,8224,m/military_hospital/sun_aiuwutvppdtxgrqv.jpg,0.0,0,0.0
+A,low_geometry_low_detection,3625,fencing,fencing,high_scoring_negative,4,5890,g/gatehouse/sun_bmjcjcuzqdojkzbo.jpg,0.0,0,0.0
+A,low_geometry_low_detection,3625,fencing,fencing,high_scoring_negative,5,8863,n/nursery/sun_abntzfcsdveljbup.jpg,0.0,0,0.0
+A,low_geometry_low_detection,3625,fencing,fencing,low_scoring_positive,1,14227,w/wrestling_ring/indoor/sun_akrccmohqijaceco.jpg,0.0,1,0.6666666865348816
+A,low_geometry_low_detection,3625,fencing,fencing,low_scoring_positive,2,13396,v/vegetable_garden/sun_ayrplpauhuowtqmm.jpg,0.0,1,1.0
+A,low_geometry_low_detection,3625,fencing,fencing,low_scoring_positive,3,13390,v/vegetable_garden/sun_anlasisgebqabjsm.jpg,0.0,1,1.0
+A,low_geometry_low_detection,3625,fencing,fencing,low_scoring_positive,4,5249,f/fishpond/sun_bfaszflkpeudylof.jpg,0.0,1,1.0
+A,low_geometry_low_detection,3625,fencing,fencing,low_scoring_positive,5,8348,m/moat/dry/sun_bkavczvblahbrxbb.jpg,0.0,1,1.0
+B,high_geometry_high_detection,2184,snow,snow,top_activation,1,6931,i/igloo/sun_akaulbwcbadztatu.jpg,0.41186171770095825,1,1.0
+B,high_geometry_high_detection,2184,snow,snow,top_activation,2,6925,i/igloo/sun_aeeepdmmioxxjpnu.jpg,0.4115748405456543,0,0.3333333432674408
+B,high_geometry_high_detection,2184,snow,snow,top_activation,3,9435,p/parking_lot/sun_bfpoujerxfchpted.jpg,0.405857115983963,1,1.0
+B,high_geometry_high_detection,2184,snow,snow,top_activation,4,6923,i/igloo/sun_adpugmaaugdgqmqn.jpg,0.3776220679283142,1,0.6666666865348816
+B,high_geometry_high_detection,2184,snow,snow,top_activation,5,9214,o/outcropping/sun_aoxlwcdrfanslpza.jpg,0.3602081537246704,1,0.6666666865348816
+B,high_geometry_high_detection,2184,snow,snow,high_scoring_negative,1,6925,i/igloo/sun_aeeepdmmioxxjpnu.jpg,0.4115748405456543,0,0.3333333432674408
+B,high_geometry_high_detection,2184,snow,snow,high_scoring_negative,2,3891,c/crevasse/sun_aofvkahlbziujgkp.jpg,0.30269762873649597,0,0.3333333432674408
+B,high_geometry_high_detection,2184,snow,snow,high_scoring_negative,3,11714,s/snowfield/sun_angndjojdtofkryg.jpg,0.29935458302497864,0,0.0
+B,high_geometry_high_detection,2184,snow,snow,high_scoring_negative,4,6889,i/ice_skating_rink/outdoor/sun_asfjquzxrikccygm.jpg,0.2522757649421692,0,0.3333333432674408
+B,high_geometry_high_detection,2184,snow,snow,high_scoring_negative,5,11570,s/ski_jump/sun_bgzfngqitbdcxzuw.jpg,0.23513977229595184,0,0.0
+B,high_geometry_high_detection,2184,snow,snow,low_scoring_positive,1,13576,v/village/sun_angfrrpjwjoyqtpe.jpg,0.006224198266863823,1,0.6666666865348816
+B,high_geometry_high_detection,2184,snow,snow,low_scoring_positive,2,3857,c/crawl_space/sun_arclswhjijfryfhj.jpg,0.02843797393143177,1,0.6666666865348816
+B,high_geometry_high_detection,2184,snow,snow,low_scoring_positive,3,11703,s/snowfield/sun_acpxaistqyimycdc.jpg,0.046617306768894196,1,0.6666666865348816
+B,high_geometry_high_detection,2184,snow,snow,low_scoring_positive,4,8592,m/mountain_snowy/sun_abdnorvepwmfpczx.jpg,0.06522226333618164,1,1.0
+B,high_geometry_high_detection,2184,snow,snow,low_scoring_positive,5,8532,m/mountain/sun_aduxybjjxgfhwggu.jpg,0.07476882636547089,1,0.6666666865348816
+B,high_geometry_high_detection,8146,flowers,flowers,top_activation,1,5105,f/field/wild/sun_acklffcwmayvnfqm.jpg,0.18749867379665375,1,0.6666666865348816
+B,high_geometry_high_detection,8146,flowers,flowers,top_activation,2,5388,f/florist_shop/indoor/sun_acwkallqszgnsigg.jpg,0.15892530977725983,1,1.0
+B,high_geometry_high_detection,8146,flowers,flowers,top_activation,3,5386,f/florist_shop/indoor/sun_abzaovrydrhxobzy.jpg,0.15839767456054688,1,1.0
+B,high_geometry_high_detection,8146,flowers,flowers,top_activation,4,5384,f/florist_shop/indoor/sun_aaucvhuznofecifl.jpg,0.1556636244058609,1,0.6666666865348816
+B,high_geometry_high_detection,8146,flowers,flowers,top_activation,5,5397,f/florist_shop/indoor/sun_akbxvrhkcyoohvhw.jpg,0.1519654244184494,0,0.3333333432674408
+B,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,1,5397,f/florist_shop/indoor/sun_akbxvrhkcyoohvhw.jpg,0.1519654244184494,0,0.3333333432674408
+B,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,2,14166,w/woodland/sun_bcupxmrbywkxcnjn.jpg,0.13518476486206055,0,0.3333333432674408
+B,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,3,9146,o/orchard/sun_aikiadfygjhpxbxf.jpg,0.1295640617609024,0,0.3333333432674408
+B,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,4,3344,c/cloister/outdoor/sun_ahkzfdspdbdpnxao.jpg,0.1131892204284668,0,0.3333333432674408
+B,high_geometry_high_detection,8146,flowers,flowers,high_scoring_negative,5,5282,f/flea_market/indoor/sun_ajafulxcmqpclolt.jpg,0.10945998132228851,0,0.0
+B,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,1,9943,p/podium/outdoor/sun_aiohgiefelyhdctp.jpg,0.0,1,1.0
+B,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,2,11271,s/schoolyard/sun_bhinwfrcewspkyax.jpg,0.0,1,0.6666666865348816
+B,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,3,14241,y/yard/sun_admkqrbkeigjffud.jpg,0.0,1,1.0
+B,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,4,10591,r/rectory/sun_ajugmttwpoysoddk.jpg,0.0,1,0.6666666865348816
+B,high_geometry_high_detection,8146,flowers,flowers,low_scoring_positive,5,8337,m/mission/sun_bteufuyczkxcavmg.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,28,rock/stone,rock/stone,top_activation,1,798,a/auto_factory/sun_arlffdiapzbqztfs.jpg,0.0,0,0.0
+B,high_geometry_low_detection,28,rock/stone,rock/stone,top_activation,2,8224,m/military_hospital/sun_aiuwutvppdtxgrqv.jpg,0.0,0,0.0
+B,high_geometry_low_detection,28,rock/stone,rock/stone,top_activation,3,5890,g/gatehouse/sun_bmjcjcuzqdojkzbo.jpg,0.0,0,0.0
+B,high_geometry_low_detection,28,rock/stone,rock/stone,top_activation,4,8863,n/nursery/sun_abntzfcsdveljbup.jpg,0.0,0,0.0
+B,high_geometry_low_detection,28,rock/stone,rock/stone,top_activation,5,4806,e/embassy/sun_aeejhzqvmmqxbjgn.jpg,0.0,0,0.0
+B,high_geometry_low_detection,28,rock/stone,rock/stone,high_scoring_negative,1,10976,r/root_cellar/sun_ayqtqkmudtxnwupn.jpg,0.0,0,0.0
+B,high_geometry_low_detection,28,rock/stone,rock/stone,high_scoring_negative,2,4806,e/embassy/sun_aeejhzqvmmqxbjgn.jpg,0.0,0,0.0
+B,high_geometry_low_detection,28,rock/stone,rock/stone,high_scoring_negative,3,3442,c/coffee_shop/sun_affdvsukstgxprvd.jpg,0.0,0,0.0
+B,high_geometry_low_detection,28,rock/stone,rock/stone,high_scoring_negative,4,5052,f/fence/sun_bfvcpmedzmwheqbb.jpg,0.0,0,0.0
+B,high_geometry_low_detection,28,rock/stone,rock/stone,high_scoring_negative,5,13810,w/waterfall/block/sun_amllmcnybcmhnqmj.jpg,0.0,0,0.3333333432674408
+B,high_geometry_low_detection,28,rock/stone,rock/stone,low_scoring_positive,1,7293,k/kasbah/sun_arcjqhsmfxrhxoqw.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,28,rock/stone,rock/stone,low_scoring_positive,2,2342,b/butte/sun_adeeublvfvdkgegg.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,28,rock/stone,rock/stone,low_scoring_positive,3,6575,h/hoodoo/sun_cwujvzummcitnobf.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,28,rock/stone,rock/stone,low_scoring_positive,4,8348,m/moat/dry/sun_bkavczvblahbrxbb.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,28,rock/stone,rock/stone,low_scoring_positive,5,10024,p/porch/sun_aggogmvsvoqepjta.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,top_activation,1,798,a/auto_factory/sun_arlffdiapzbqztfs.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,top_activation,2,8224,m/military_hospital/sun_aiuwutvppdtxgrqv.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,top_activation,3,5890,g/gatehouse/sun_bmjcjcuzqdojkzbo.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,top_activation,4,8863,n/nursery/sun_abntzfcsdveljbup.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,top_activation,5,4806,e/embassy/sun_aeejhzqvmmqxbjgn.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,high_scoring_negative,1,1251,b/barn/sun_agdllchaeokpxyxh.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,high_scoring_negative,2,836,a/auto_racing_paddock/sun_bnpmcqekcrzhwufz.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,high_scoring_negative,3,11249,s/schoolhouse/sun_bcgfkbqejwkhfous.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,high_scoring_negative,4,825,a/auto_racing_paddock/sun_bbjrtdufnwfcxibg.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,high_scoring_negative,5,8224,m/military_hospital/sun_aiuwutvppdtxgrqv.jpg,0.0,0,0.0
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,low_scoring_positive,1,11312,s/sea_cliff/sun_ayayigsbyzedhgon.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,low_scoring_positive,2,3419,c/coast/sun_aevdotmpzjqmardj.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,low_scoring_positive,3,6909,i/iceberg/sun_aerlngktujurnvvd.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,low_scoring_positive,4,10387,r/raft/sun_agtkreotujnlmlcq.jpg,0.0,1,0.6666666865348816
+B,high_geometry_low_detection,4979,waves/ surf,waves/ surf,low_scoring_positive,5,6344,h/harbor/sun_afndrkoffwqpprlg.jpg,0.0,1,0.6666666865348816
+B,low_geometry_high_detection,5915,praying,praying,top_activation,1,3186,c/church/outdoor/sun_andqfxrmhxtjmoem.jpg,0.3430165648460388,1,0.6666666865348816
+B,low_geometry_high_detection,5915,praying,praying,top_activation,2,3199,c/church/outdoor/sun_bfumlpkpcvdomcru.jpg,0.3196999430656433,1,0.6666666865348816
+B,low_geometry_high_detection,5915,praying,praying,top_activation,3,349,a/apse/outdoor/sun_ajzwpjrehimzosjg.jpg,0.28145918250083923,0,0.0
+B,low_geometry_high_detection,5915,praying,praying,top_activation,4,8321,m/mission/sun_akewqmfwnlniwjxg.jpg,0.26891958713531494,0,0.3333333432674408
+B,low_geometry_high_detection,5915,praying,praying,top_activation,5,10136,p/priory/sun_btmvduozgduuvbtz.jpg,0.26088747382164,1,0.6666666865348816
+B,low_geometry_high_detection,5915,praying,praying,high_scoring_negative,1,349,a/apse/outdoor/sun_ajzwpjrehimzosjg.jpg,0.28145918250083923,0,0.0
+B,low_geometry_high_detection,5915,praying,praying,high_scoring_negative,2,8321,m/mission/sun_akewqmfwnlniwjxg.jpg,0.26891958713531494,0,0.3333333432674408
+B,low_geometry_high_detection,5915,praying,praying,high_scoring_negative,3,12323,s/synagogue/outdoor/sun_anfmhqhtpssommzx.jpg,0.23847664892673492,0,0.0
+B,low_geometry_high_detection,5915,praying,praying,high_scoring_negative,4,348,a/apse/outdoor/sun_aifrzcjyksgmluxz.jpg,0.23540179431438446,0,0.0
+B,low_geometry_high_detection,5915,praying,praying,high_scoring_negative,5,1212,b/baptistry/outdoor/sun_agbucnrlsxhawxzy.jpg,0.21577157080173492,0,0.3333333432674408
+B,low_geometry_high_detection,5915,praying,praying,low_scoring_positive,1,8465,m/mosque/indoor/sun_alxyqlkcyhzdqowq.jpg,0.0,1,0.6666666865348816
+B,low_geometry_high_detection,5915,praying,praying,low_scoring_positive,2,8468,m/mosque/indoor/sun_apwnmixajpwxmjhi.jpg,0.0,1,0.6666666865348816
+B,low_geometry_high_detection,5915,praying,praying,low_scoring_positive,3,9284,p/pagoda/sun_bhpptszomicfhdds.jpg,0.0,1,0.6666666865348816
+B,low_geometry_high_detection,5915,praying,praying,low_scoring_positive,4,7497,l/labyrinth/outdoor/sun_budqrekvzvoemzlz.jpg,0.0,1,0.6666666865348816
+B,low_geometry_high_detection,5915,praying,praying,low_scoring_positive,5,8467,m/mosque/indoor/sun_apqimnuyeymcadub.jpg,0.0,1,0.6666666865348816
+B,low_geometry_high_detection,6493,shopping,shopping,top_activation,1,2521,c/candy_store/sun_adgfqldinrodougf.jpg,0.2635447680950165,1,1.0
+B,low_geometry_high_detection,6493,shopping,shopping,top_activation,2,1487,b/bazaar/indoor/sun_apiogxmvvzfmtsmj.jpg,0.2134089171886444,0,0.3333333432674408
+B,low_geometry_high_detection,6493,shopping,shopping,top_activation,3,1485,b/bazaar/indoor/sun_agvzczkvlkhlpllm.jpg,0.21084634959697723,1,1.0
+B,low_geometry_high_detection,6493,shopping,shopping,top_activation,4,2336,b/butchers_shop/sun_arcmafqklmivwkgk.jpg,0.18814802169799805,0,0.0
+B,low_geometry_high_detection,6493,shopping,shopping,top_activation,5,10180,p/pub/indoor/sun_aakmkpxpegkqbztk.jpg,0.18407472968101501,0,0.0
+B,low_geometry_high_detection,6493,shopping,shopping,high_scoring_negative,1,1487,b/bazaar/indoor/sun_apiogxmvvzfmtsmj.jpg,0.2134089171886444,0,0.3333333432674408
+B,low_geometry_high_detection,6493,shopping,shopping,high_scoring_negative,2,2336,b/butchers_shop/sun_arcmafqklmivwkgk.jpg,0.18814802169799805,0,0.0
+B,low_geometry_high_detection,6493,shopping,shopping,high_scoring_negative,3,10180,p/pub/indoor/sun_aakmkpxpegkqbztk.jpg,0.18407472968101501,0,0.0
+B,low_geometry_high_detection,6493,shopping,shopping,high_scoring_negative,4,4067,d/delicatessen/sun_abzcwefkddqxnqdh.jpg,0.1769426465034485,0,0.3333333432674408
+B,low_geometry_high_detection,6493,shopping,shopping,high_scoring_negative,5,1488,b/bazaar/indoor/sun_aqpnsuqzurlvjzmm.jpg,0.1622459590435028,0,0.3333333432674408
+B,low_geometry_high_detection,6493,shopping,shopping,low_scoring_positive,1,9574,p/pet_shop/sun_bmwuxipjjlybhaoh.jpg,0.0,1,1.0
+B,low_geometry_high_detection,6493,shopping,shopping,low_scoring_positive,2,12199,s/supermarket/sun_amgycegphrxbrtcj.jpg,0.0,1,0.6666666865348816
+B,low_geometry_high_detection,6493,shopping,shopping,low_scoring_positive,3,5388,f/florist_shop/indoor/sun_acwkallqszgnsigg.jpg,0.0,1,0.6666666865348816
+B,low_geometry_high_detection,6493,shopping,shopping,low_scoring_positive,4,12390,t/teashop/sun_bktypincamletecg.jpg,0.0,1,0.6666666865348816
+B,low_geometry_high_detection,6493,shopping,shopping,low_scoring_positive,5,11462,s/shopfront/sun_aeatifohhumxwnhp.jpg,0.0,1,0.6666666865348816
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,top_activation,1,10097,p/power_plant/outdoor/sun_brilqgngnrooaypm.jpg,0.1021200492978096,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,top_activation,2,10090,p/power_plant/outdoor/sun_bmwopusswugkffjn.jpg,0.0867326632142067,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,top_activation,3,14026,w/wind_farm/sun_bjovgycboomekyyx.jpg,0.07941588759422302,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,top_activation,4,13307,u/underwater/wreck/sun_bhaymyfvcjudqqzb.jpg,0.07672933489084244,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,top_activation,5,5105,f/field/wild/sun_acklffcwmayvnfqm.jpg,0.06953136622905731,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,high_scoring_negative,1,10097,p/power_plant/outdoor/sun_brilqgngnrooaypm.jpg,0.1021200492978096,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,high_scoring_negative,2,10090,p/power_plant/outdoor/sun_bmwopusswugkffjn.jpg,0.0867326632142067,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,high_scoring_negative,3,14026,w/wind_farm/sun_bjovgycboomekyyx.jpg,0.07941588759422302,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,high_scoring_negative,4,13307,u/underwater/wreck/sun_bhaymyfvcjudqqzb.jpg,0.07672933489084244,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,high_scoring_negative,5,5105,f/field/wild/sun_acklffcwmayvnfqm.jpg,0.06953136622905731,0,0.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,low_scoring_positive,1,8865,n/nursery/sun_acdoclrqjyjsiqbp.jpg,0.0,1,0.6666666865348816
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,low_scoring_positive,2,184,a/alcove/sun_acxrmnusqwqhejko.jpg,0.0,1,1.0
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,low_scoring_positive,3,4937,e/exhibition_hall/sun_avbivallhyxkmnly.jpg,0.0,1,0.6666666865348816
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,low_scoring_positive,4,11772,s/squash_court/sun_bhevdlwcccnzhrxd.jpg,0.0,1,0.6666666865348816
+B,low_geometry_low_detection,7340,vinyl/ linoleum,vinyl/ linoleum,low_scoring_positive,5,6538,h/home_office/sun_apclwfhgwdpsdwdg.jpg,0.0,1,0.6666666865348816
+B,low_geometry_low_detection,4234,ice,ice,top_activation,1,10786,r/restroom/outdoor/sun_agqwufkkdegyefyp.jpg,0.06318001449108124,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,top_activation,2,13648,v/voting_booth/sun_akiaagzhxdiznotv.jpg,0.059098366647958755,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,top_activation,3,11351,s/server_room/sun_bjcrvneccnmacpji.jpg,0.05708352103829384,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,top_activation,4,10727,r/restaurant_kitchen/sun_albdsyizkbjhdjdk.jpg,0.04699478670954704,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,top_activation,5,12274,s/swimming_pool/indoor/sun_aokqlicmjcpdmupe.jpg,0.043765921145677567,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,high_scoring_negative,1,10786,r/restroom/outdoor/sun_agqwufkkdegyefyp.jpg,0.06318001449108124,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,high_scoring_negative,2,13648,v/voting_booth/sun_akiaagzhxdiznotv.jpg,0.059098366647958755,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,high_scoring_negative,3,11351,s/server_room/sun_bjcrvneccnmacpji.jpg,0.05708352103829384,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,high_scoring_negative,4,10727,r/restaurant_kitchen/sun_albdsyizkbjhdjdk.jpg,0.04699478670954704,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,high_scoring_negative,5,12274,s/swimming_pool/indoor/sun_aokqlicmjcpdmupe.jpg,0.043765921145677567,0,0.0
+B,low_geometry_low_detection,4234,ice,ice,low_scoring_positive,1,6050,g/glacier/sun_bhywsghyfsygqqgu.jpg,0.0,1,0.6666666865348816
+B,low_geometry_low_detection,4234,ice,ice,low_scoring_positive,2,6831,i/ice_floe/sun_akiuqqxhsdexvkwy.jpg,0.0,1,0.6666666865348816
+B,low_geometry_low_detection,4234,ice,ice,low_scoring_positive,3,6820,i/ice_floe/sun_abcyirznwlncevwj.jpg,0.0,1,1.0
+B,low_geometry_low_detection,4234,ice,ice,low_scoring_positive,4,6909,i/iceberg/sun_aerlngktujurnvvd.jpg,0.0,1,1.0
+B,low_geometry_low_detection,4234,ice,ice,low_scoring_positive,5,8531,m/mountain/sun_adllnkiukblykrvr.jpg,0.0,1,0.6666666865348816
