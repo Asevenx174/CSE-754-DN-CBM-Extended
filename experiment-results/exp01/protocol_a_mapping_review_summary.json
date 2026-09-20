@@ -1,0 +1,11 @@
+{
+  "unique_original_names": 3773,
+  "number_of_atoms": 8192,
+  "exact_name_matches": 25,
+  "atoms_in_exact_matches": 66,
+  "supported_exact_name_matches": 22,
+  "atoms_in_supported_exact_matches": 58,
+  "unreviewed_names": 3748,
+  "output_path": "experiment-results/exp01/protocol_a_sun_mapping_review.csv",
+  "warning": "suggested_sun_attribute is a lexical review aid, not an approved mapping"
+}
