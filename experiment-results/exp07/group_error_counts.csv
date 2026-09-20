@@ -1,0 +1,10 @@
+protocol,case_category,concept,sparse_validation_threshold,raw_max_validation_threshold,sparse_validation_youden_j,raw_max_validation_youden_j,sparse_threshold_status,raw_max_threshold_status,count_positive_recovered_by_sparse,count_positive_lost_by_sparse,count_false_positive_corrected_by_sparse,count_false_positive_introduced_by_sparse
+A,tied,driving,0.0008511848864145577,0.0019035041332244873,0.09584184252325846,0.09584184252325846,optimized,optimized,0,0,0,0
+A,tied,sand,1.401298464324817e-45,1.401298464324817e-45,0.0,0.0,constant_all_negative,constant_all_negative,0,0,0,0
+A,tied,shopping,-0.007929017767310143,0.000524427741765976,0.3101569456072506,0.3101569456072506,optimized,optimized,0,0,0,0
+A,worsened_point_estimate,fencing,-0.06324881315231323,0.051319949328899384,0.06570674346052319,0.0,optimized,no_positive_j_all_negative,66,0,0,2501
+A,worsened_point_estimate,flowers,0.44849511981010437,0.014249546453356743,0.84668911335578,0.845278178611512,optimized,optimized,0,0,5,0
+B,improved,enclosed area,0.17767959833145142,0.503143846988678,0.32271017119838874,0.0,optimized,no_positive_j_all_negative,650,0,0,747
+B,improved,ice,0.5778520703315735,0.04941737651824951,0.6764790764790765,0.2621131954465288,optimized,optimized,8,4,1009,83
+B,improved,open area,0.02111455611884594,0.053099460899829865,0.4940329643093192,0.06075884005287502,optimized,optimized,299,149,676,175
+B,tied,working,-0.22265253961086273,0.012276209890842438,0.4906991015084766,0.39718454338129566,optimized,optimized,3,26,335,26

@@ -1,0 +1,83 @@
+protocol,case_category,concept,example_type,rank,sample_id,relative_path,binary_label,worker_agreement,sparse_score,raw_max_score
+A,worsened_point_estimate,fencing,positive_recovered_by_sparse,1,1007,b/balcony/exterior/sun_anqysxekbzsvyvet.jpg,1,0.6666666865348816,0.26261237263679504,0.011782456189393997
+A,worsened_point_estimate,fencing,positive_recovered_by_sparse,2,3691,c/corral/sun_aqnzdvvaxwezfkyk.jpg,1,0.6666666865348816,0.22096092998981476,0.010205663740634918
+A,worsened_point_estimate,fencing,positive_recovered_by_sparse,3,5054,f/fence/sun_bjazytgnttjtmxbk.jpg,1,1.0,0.205642968416214,0.009625773876905441
+A,worsened_point_estimate,fencing,positive_recovered_by_sparse,4,13465,v/veranda/sun_ajvqnterfljcrjdl.jpg,1,0.6666666865348816,0.1920081228017807,0.009109601378440857
+A,worsened_point_estimate,fencing,positive_recovered_by_sparse,5,5665,f/freeway/sun_bcwbzjsysurvghpf.jpg,1,0.6666666865348816,0.1873750388622284,0.008934207260608673
+A,worsened_point_estimate,fencing,false_positive_introduced_by_sparse,1,7156,j/jail_cell/sun_apfwutkuzrbhhwtf.jpg,0,0.0,1.0593641996383667,0.04194497689604759
+A,worsened_point_estimate,fencing,false_positive_introduced_by_sparse,2,557,a/armory/sun_bpfgqindlzkbhoti.jpg,0,0.0,1.0411670207977295,0.04125608876347542
+A,worsened_point_estimate,fencing,false_positive_introduced_by_sparse,3,12463,t/temple/western/sun_bdzyotjecdlmjdws.jpg,0,0.0,1.0325638055801392,0.04093040153384209
+A,worsened_point_estimate,fencing,false_positive_introduced_by_sparse,4,9161,o/organ_loft/exterior/sun_adzeyxdsnqzrlygg.jpg,0,0.0,1.025925874710083,0.04067910835146904
+A,worsened_point_estimate,fencing,false_positive_introduced_by_sparse,5,5317,f/flea_market/outdoor/sun_bopckachifyaspjb.jpg,0,0.0,1.0211806297302246,0.04049946740269661
+A,worsened_point_estimate,flowers,false_positive_corrected_by_sparse,1,1088,b/bamboo_forest/sun_aklphmoauaygsali.jpg,0,0.0,-0.21124514937400818,0.038545846939086914
+A,worsened_point_estimate,flowers,false_positive_corrected_by_sparse,2,13050,t/tree_farm/sun_bcimcjzlwhoiwuat.jpg,0,0.0,-0.21124514937400818,0.024338707327842712
+A,worsened_point_estimate,flowers,false_positive_corrected_by_sparse,3,5462,f/forest/broadleaf/sun_aasrozcidkphxctl.jpg,0,0.0,-0.03178548440337181,0.022433221340179443
+A,worsened_point_estimate,flowers,false_positive_corrected_by_sparse,4,11250,s/schoolhouse/sun_bcjtejbyvdqokmie.jpg,0,0.0,-0.21124514937400818,0.01810014247894287
+A,worsened_point_estimate,flowers,false_positive_corrected_by_sparse,5,8106,m/marsh/sun_abwssewwarkbfjqr.jpg,0,0.0,-0.21124514937400818,0.014347575604915619
+B,improved,enclosed area,positive_recovered_by_sparse,1,7952,l/locker_room/sun_amjxduwonsnknmzq.jpg,1,0.6666666865348816,4.471901893615723,0.18071535229682922
+B,improved,enclosed area,positive_recovered_by_sparse,2,8468,m/mosque/indoor/sun_apwnmixajpwxmjhi.jpg,1,1.0,3.803797721862793,0.2381746470928192
+B,improved,enclosed area,positive_recovered_by_sparse,3,4752,e/elevator/interior/sun_amicbywtgzbygxyr.jpg,1,0.6666666865348816,3.7220141887664795,0.17907500267028809
+B,improved,enclosed area,positive_recovered_by_sparse,4,4702,e/elevator/door/sun_abmwvmkvtlwialrf.jpg,1,0.6666666865348816,3.699314832687378,0.17187826335430145
+B,improved,enclosed area,positive_recovered_by_sparse,5,11517,s/shower/sun_bkdmqjeghlvianhq.jpg,1,0.6666666865348816,3.630378007888794,0.18743325769901276
+B,improved,enclosed area,false_positive_introduced_by_sparse,1,4723,e/elevator/freight_elevator/sun_ajbnyvdpqovxgoku.jpg,0,0.3333333432674408,4.432745933532715,0.22675473988056183
+B,improved,enclosed area,false_positive_introduced_by_sparse,2,4763,e/elevator_lobby/sun_atmtyrlpuspghveb.jpg,0,0.3333333432674408,4.072231769561768,0.1650076061487198
+B,improved,enclosed area,false_positive_introduced_by_sparse,3,4701,e/elevator/door/sun_aazrybiwsixsdees.jpg,0,0.3333333432674408,3.6286938190460205,0.17904086410999298
+B,improved,enclosed area,false_positive_introduced_by_sparse,4,11510,s/shower/sun_axagkcctjrssmrst.jpg,0,0.3333333432674408,3.235837459564209,0.15709158778190613
+B,improved,enclosed area,false_positive_introduced_by_sparse,5,4459,d/doorway/outdoor/sun_anptcuvnzbwmizeb.jpg,0,0.0,3.1835525035858154,0.17980171740055084
+B,improved,ice,positive_recovered_by_sparse,1,6045,g/glacier/sun_bfffgugntfnzgnfm.jpg,1,1.0,4.980113983154297,0.046431444585323334
+B,improved,ice,positive_recovered_by_sparse,2,8585,m/mountain_snowy/sun_aamwzycmlmnllfhg.jpg,1,1.0,3.7599973678588867,0.03839289769530296
+B,improved,ice,positive_recovered_by_sparse,3,11620,s/ski_slope/sun_aalauatnbjxfdgve.jpg,1,0.6666666865348816,2.6821625232696533,0.04684053361415863
+B,improved,ice,positive_recovered_by_sparse,4,6915,i/iceberg/sun_ahgpuyjjaigczdjf.jpg,1,0.6666666865348816,1.8990943431854248,0.027817778289318085
+B,improved,ice,positive_recovered_by_sparse,5,6833,i/ice_floe/sun_alziebfwvwfscbnn.jpg,1,1.0,1.681253433227539,0.040185511112213135
+B,improved,ice,positive_lost_by_sparse,1,6849,i/ice_shelf/sun_awmfkvxofoknvojx.jpg,1,1.0,-0.3015916049480438,0.09674771130084991
+B,improved,ice,positive_lost_by_sparse,2,9978,p/pond/sun_bxsbubieicyizvst.jpg,1,0.6666666865348816,-1.22616708278656,0.08781605958938599
+B,improved,ice,positive_lost_by_sparse,3,512,a/arena/hockey/sun_bmdwiijwnagslgef.jpg,1,1.0,-1.6759639978408813,0.07823516428470612
+B,improved,ice,positive_lost_by_sparse,4,6919,i/iceberg/sun_akmxfdsfynynzzua.jpg,1,0.6666666865348816,-0.017182372510433197,0.056528929620981216
+B,improved,ice,false_positive_corrected_by_sparse,1,12400,t/television_studio/sun_abdmvstslruphwmc.jpg,0,0.0,-2.8026559352874756,0.3817920684814453
+B,improved,ice,false_positive_corrected_by_sparse,2,12010,s/stone_circle/sun_ahikoufbbdflnzqu.jpg,0,0.0,-3.5949559211730957,0.3774251639842987
+B,improved,ice,false_positive_corrected_by_sparse,3,14026,w/wind_farm/sun_bjovgycboomekyyx.jpg,0,0.0,-0.46758323907852173,0.3687155246734619
+B,improved,ice,false_positive_corrected_by_sparse,4,8152,m/mastaba/sun_bcxwxdtwxnxulqqs.jpg,0,0.0,-1.507088303565979,0.3422909080982208
+B,improved,ice,false_positive_corrected_by_sparse,5,3378,c/closet/sun_akdozljygffafpor.jpg,0,0.0,-1.7211623191833496,0.3304803669452667
+B,improved,ice,false_positive_introduced_by_sparse,1,6043,g/glacier/sun_bbpnzyxdonerwjwr.jpg,0,0.0,4.208105564117432,0.027355223894119263
+B,improved,ice,false_positive_introduced_by_sparse,2,11584,s/ski_lodge/sun_alvbcflrxrkdlgqy.jpg,0,0.3333333432674408,2.7055203914642334,0.03958958014845848
+B,improved,ice,false_positive_introduced_by_sparse,3,11103,s/salt_plain/sun_ahxwlwbwarlwodvc.jpg,0,0.0,2.501919984817505,0.039199721068143845
+B,improved,ice,false_positive_introduced_by_sparse,4,7575,l/landfill/sun_aumpuqqakzitjtcx.jpg,0,0.0,2.4508042335510254,0.03300495445728302
+B,improved,ice,false_positive_introduced_by_sparse,5,9191,o/ossuary/sun_aqnoehkoidwdyyjw.jpg,0,0.0,2.3883743286132812,0.03077877126634121
+B,improved,open area,positive_recovered_by_sparse,1,26,a/access_road/sun_ahwugxdwvldcesmn.jpg,1,1.0,4.394033908843994,0.046969905495643616
+B,improved,open area,positive_recovered_by_sparse,2,4148,d/desert/vegetation/sun_aladzvobvdfwvsqr.jpg,1,1.0,3.7828786373138428,0.040408656001091
+B,improved,open area,positive_recovered_by_sparse,3,1256,b/barn/sun_aitmqmsqhsleqwlb.jpg,1,1.0,3.7408320903778076,0.05025254935026169
+B,improved,open area,positive_recovered_by_sparse,4,14330,z/zoo/sun_bivvfubbvvqxsgfx.jpg,1,0.6666666865348816,3.709902763366699,0.04158024117350578
+B,improved,open area,positive_recovered_by_sparse,5,13997,w/wharf/sun_bwwhgeqtcuituekg.jpg,1,1.0,3.645775318145752,0.044091615825891495
+B,improved,open area,positive_lost_by_sparse,1,7019,i/inn/outdoor/sun_arrxypodptogfqkw.jpg,1,0.6666666865348816,-3.06961727142334,0.28898385167121887
+B,improved,open area,positive_lost_by_sparse,2,4806,e/embassy/sun_aeejhzqvmmqxbjgn.jpg,1,0.6666666865348816,-0.165303036570549,0.2853136956691742
+B,improved,open area,positive_lost_by_sparse,3,11869,s/stadium/soccer/sun_bnsuzbctxrywhaoc.jpg,1,0.6666666865348816,-0.4978276491165161,0.24084767699241638
+B,improved,open area,positive_lost_by_sparse,4,12838,t/town_house/sun_bnebnlrjqfphrepn.jpg,1,0.6666666865348816,-1.4979230165481567,0.2141079306602478
+B,improved,open area,positive_lost_by_sparse,5,9500,p/patio/sun_abjuovqvyfuzvqwt.jpg,1,1.0,-0.4373989701271057,0.21051912009716034
+B,improved,open area,false_positive_corrected_by_sparse,1,9280,p/pagoda/sun_aoycolpphkowbnwo.jpg,0,0.3333333432674408,-0.810020387172699,0.4902364909648895
+B,improved,open area,false_positive_corrected_by_sparse,2,12692,t/throne_room/sun_basgetprfehpmoje.jpg,0,0.0,-1.5123004913330078,0.3752978444099426
+B,improved,open area,false_positive_corrected_by_sparse,3,3456,c/coffee_shop/sun_bshdmnfyetdxecgx.jpg,0,0.0,-6.2827372550964355,0.3658938407897949
+B,improved,open area,false_positive_corrected_by_sparse,4,3915,c/crosswalk/sun_ampseqjhfttjgkhp.jpg,0,0.0,-0.030801085755228996,0.35437893867492676
+B,improved,open area,false_positive_corrected_by_sparse,5,12107,s/subway_interior/sun_afvtmplxucwpghnb.jpg,0,0.0,-1.3250539302825928,0.34533873200416565
+B,improved,open area,false_positive_introduced_by_sparse,1,5884,g/gatehouse/sun_aqemqtwywupklwqe.jpg,0,0.3333333432674408,3.053767204284668,0.051204707473516464
+B,improved,open area,false_positive_introduced_by_sparse,2,5501,f/forest_path/sun_aawxjmvikpfbctln.jpg,0,0.3333333432674408,2.9300036430358887,0.04152274131774902
+B,improved,open area,false_positive_introduced_by_sparse,3,12031,s/street/sun_abcravnfiujxjjqo.jpg,0,0.3333333432674408,2.770432233810425,0.03981368988752365
+B,improved,open area,false_positive_introduced_by_sparse,4,2957,c/chaparral/sun_buzgpixxwlsqyjha.jpg,0,0.3333333432674408,2.6522552967071533,0.03920108079910278
+B,improved,open area,false_positive_introduced_by_sparse,5,13009,t/train_station/platform/sun_akrcaaqprhohfsjx.jpg,0,0.0,2.560978651046753,0.03844035789370537
+B,tied,working,positive_recovered_by_sparse,1,2984,c/checkout_counter/sun_aghqbfiiriwmhxfo.jpg,1,1.0,-0.0875549390912056,0.008421028032898903
+B,tied,working,positive_recovered_by_sparse,2,12663,t/thriftshop/sun_arzzoipzotrmguiz.jpg,1,0.6666666865348816,-0.0956539437174797,0.007691547274589539
+B,tied,working,positive_recovered_by_sparse,3,5438,f/food_court/sun_axiftnaiabuhpyjm.jpg,1,0.6666666865348816,-0.20788730680942535,0.006405910477042198
+B,tied,working,positive_lost_by_sparse,1,1484,b/bazaar/indoor/sun_acflfdifotvzbfhp.jpg,1,0.6666666865348816,-0.2395121306180954,0.04820358380675316
+B,tied,working,positive_lost_by_sparse,2,5428,f/food_court/sun_akixebibpcdonxrj.jpg,1,0.6666666865348816,-0.7593978643417358,0.03827168792486191
+B,tied,working,positive_lost_by_sparse,3,11025,r/rubble/sun_adcqywrrzmmzbtjh.jpg,1,0.6666666865348816,-0.2798313498497009,0.037513259798288345
+B,tied,working,positive_lost_by_sparse,4,8072,m/market/indoor/sun_brptzujvgfqkfcja.jpg,1,0.6666666865348816,-0.7032178044319153,0.033819422125816345
+B,tied,working,positive_lost_by_sparse,5,10641,r/repair_shop/sun_aaysngdtphaeptsd.jpg,1,0.6666666865348816,-0.3919352889060974,0.03256426751613617
+B,tied,working,false_positive_corrected_by_sparse,1,9941,p/podium/outdoor/sun_affbcruzrmwqhaon.jpg,0,0.0,-1.0528610944747925,0.13864609599113464
+B,tied,working,false_positive_corrected_by_sparse,2,2251,b/bus_depot/outdoor/sun_ascfhrjnbhuttysf.jpg,0,0.0,-1.035858392715454,0.1335485279560089
+B,tied,working,false_positive_corrected_by_sparse,3,8121,m/martial_arts_gym/sun_aleniaysezwxkvla.jpg,0,0.0,-87.69628143310547,0.13020488619804382
+B,tied,working,false_positive_corrected_by_sparse,4,3132,c/chicken_farm/outdoor/sun_apdyqihiqljhyhrm.jpg,0,0.0,-1.000413179397583,0.1229216679930687
+B,tied,working,false_positive_corrected_by_sparse,5,9925,p/podium/indoor/sun_agkvqiuthxsnqvhn.jpg,0,0.0,-0.5771992802619934,0.11450020223855972
+B,tied,working,false_positive_introduced_by_sparse,1,12253,s/swimming_hole/sun_alkrcynefqkvsqwx.jpg,0,0.0,0.09813691675662994,0.01098429225385189
+B,tied,working,false_positive_introduced_by_sparse,2,3749,c/cottage_garden/sun_alzmypchphsdpznb.jpg,0,0.0,0.08353666961193085,0.012219935655593872
+B,tied,working,false_positive_introduced_by_sparse,3,9666,p/picnic_area/sun_aroyszjeykmsxjug.jpg,0,0.0,0.06712649017572403,0.011011363938450813
+B,tied,working,false_positive_introduced_by_sparse,4,13652,v/voting_booth/sun_aovxvureqwnszmid.jpg,0,0.0,0.04268090799450874,0.010601991787552834
+B,tied,working,false_positive_introduced_by_sparse,5,718,a/atrium/home/sun_bqezmntrsfjjvzhz.jpg,0,0.0,0.029026856645941734,0.008217575028538704
