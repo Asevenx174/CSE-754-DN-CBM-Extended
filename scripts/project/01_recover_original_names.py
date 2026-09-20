@@ -1,3 +1,4 @@
+import argparse
 import csv
 import json
 from pathlib import Path
@@ -21,6 +22,30 @@ EMBEDDINGS_PATH = Path(
 )
 
 OUTPUT_DIR = Path("experiment-results/exp01")
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description=(
+            "Recover and verify DN-CBM's original 20k atom names "
+            "for EXP-01A."
+        )
+    )
+    parser.add_argument(
+        "--device",
+        default="cuda" if torch.cuda.is_available() else "cpu",
+    )
+    parser.add_argument(
+        "--atom_batch_size",
+        type=int,
+        default=512,
+        help="Number of decoder columns scored per matrix-multiply batch.",
+    )
+    parser.add_argument(
+        "--output_dir",
+        default=str(OUTPUT_DIR),
+    )
+    return parser.parse_args()
 
 
 def load_resources():
@@ -87,6 +112,7 @@ def recover_assignments(
     text_embeddings,
     vocabulary,
     device,
+    atom_batch_size,
 ):
     decoder = decoder / decoder.norm(
         dim=0,
@@ -111,15 +137,29 @@ def recover_assignments(
             "The original text embeddings are not unit-normalized."
         )
 
-    similarity = (
-        text_embeddings.to(device)
-        @ decoder.to(device)
-    )
+    device = torch.device(device)
+    if device.type == "cuda" and not torch.cuda.is_available():
+        raise RuntimeError("CUDA was requested but is not available.")
+    if atom_batch_size <= 0:
+        raise ValueError("atom_batch_size must be positive.")
 
-    best_scores, best_indices = similarity.max(dim=0)
+    text_embeddings_device = text_embeddings.to(device)
+    score_batches = []
+    index_batches = []
 
-    best_scores = best_scores.cpu()
-    best_indices = best_indices.cpu()
+    with torch.no_grad():
+        for start in range(0, decoder.shape[1], atom_batch_size):
+            stop = min(start + atom_batch_size, decoder.shape[1])
+            similarity = (
+                text_embeddings_device
+                @ decoder[:, start:stop].to(device)
+            )
+            batch_scores, batch_indices = similarity.max(dim=0)
+            score_batches.append(batch_scores.cpu())
+            index_batches.append(batch_indices.cpu())
+
+    best_scores = torch.cat(score_batches)
+    best_indices = torch.cat(index_batches)
 
     recovered_names = [
         vocabulary[int(index)]
@@ -127,3 +167,122 @@ def recover_assignments(
     ]
 
     return best_scores, best_indices, recovered_names
+
+
+def save_outputs(
+    output_dir,
+    best_scores,
+    best_indices,
+    recovered_names,
+    reference_names,
+):
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    if not (
+        len(best_scores)
+        == len(best_indices)
+        == len(recovered_names)
+        == len(reference_names)
+        == 8192
+    ):
+        raise RuntimeError("Recovered assignment arrays do not contain 8,192 atoms.")
+
+    assignment_path = output_dir / "original_atom_assignments.csv"
+    mismatch_rows = []
+
+    with assignment_path.open("w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(
+            [
+                "atom_id",
+                "vocabulary_index",
+                "recovered_name",
+                "original_cosine",
+                "reference_name",
+                "name_matches_reference",
+            ]
+        )
+
+        for atom_id, (index, name, score, reference_name) in enumerate(
+            zip(best_indices, recovered_names, best_scores, reference_names)
+        ):
+            matches = name == reference_name
+            writer.writerow(
+                [
+                    atom_id,
+                    int(index),
+                    name,
+                    float(score),
+                    reference_name,
+                    matches,
+                ]
+            )
+            if not matches:
+                mismatch_rows.append(
+                    {
+                        "atom_id": atom_id,
+                        "recovered_name": name,
+                        "reference_name": reference_name,
+                    }
+                )
+
+    summary = {
+        "number_of_atoms": len(recovered_names),
+        "unique_recovered_names": len(set(recovered_names)),
+        "reference_matches": len(recovered_names) - len(mismatch_rows),
+        "reference_mismatches": len(mismatch_rows),
+        "reference_match_rate": (
+            (len(recovered_names) - len(mismatch_rows)) / len(recovered_names)
+        ),
+        "minimum_original_cosine": float(best_scores.min()),
+        "mean_original_cosine": float(best_scores.mean()),
+        "maximum_original_cosine": float(best_scores.max()),
+        "assignment_path": str(assignment_path),
+    }
+
+    summary_path = output_dir / "original_naming_summary.json"
+    summary_path.write_text(
+        json.dumps(summary, indent=2),
+        encoding="utf-8",
+    )
+
+    if mismatch_rows:
+        mismatch_path = output_dir / "original_name_mismatches.csv"
+        with mismatch_path.open("w", newline="", encoding="utf-8") as file:
+            writer = csv.DictWriter(file, fieldnames=mismatch_rows[0].keys())
+            writer.writeheader()
+            writer.writerows(mismatch_rows)
+        summary["mismatch_path"] = str(mismatch_path)
+
+    return summary
+
+
+def main():
+    args = parse_args()
+    decoder, text_embeddings, vocabulary, reference_names = load_resources()
+    best_scores, best_indices, recovered_names = recover_assignments(
+        decoder=decoder,
+        text_embeddings=text_embeddings,
+        vocabulary=vocabulary,
+        device=args.device,
+        atom_batch_size=args.atom_batch_size,
+    )
+    summary = save_outputs(
+        output_dir=args.output_dir,
+        best_scores=best_scores,
+        best_indices=best_indices,
+        recovered_names=recovered_names,
+        reference_names=reference_names,
+    )
+    print(json.dumps(summary, indent=2))
+
+    if summary["reference_mismatches"]:
+        raise RuntimeError(
+            "Recovered names do not fully match the published concept_names.csv. "
+            "Inspect original_name_mismatches.csv before continuing."
+        )
+
+
+if __name__ == "__main__":
+    main()

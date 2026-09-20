@@ -1,0 +1,11 @@
+{
+  "number_of_atoms": 8192,
+  "unique_recovered_names": 3773,
+  "reference_matches": 8192,
+  "reference_mismatches": 0,
+  "reference_match_rate": 1.0,
+  "minimum_original_cosine": -0.012815126217901707,
+  "mean_original_cosine": 0.14527592062950134,
+  "maximum_original_cosine": 0.41307008266448975,
+  "assignment_path": "experiment-results/exp01/original_atom_assignments.csv"
+}
