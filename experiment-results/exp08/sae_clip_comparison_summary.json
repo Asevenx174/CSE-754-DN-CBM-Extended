@@ -1,0 +1,19 @@
+{
+  "status": "documented implementation, not exact reproduction",
+  "test_images": 2868,
+  "matched_attributes": 100,
+  "sae_mean_image_jaccard": 0.11010811773265473,
+  "clip_mean_image_jaccard": 0.16911592726642016,
+  "delta_jaccard_clip_minus_sae": 0.059007809533765436,
+  "delta_jaccard_paired_bootstrap_95_ci": {
+    "lower": 0.05540180382152448,
+    "median": 0.059046850081771414,
+    "upper": 0.06256361793025152
+  },
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 49,
+  "mean_delta_auroc_clip_minus_sae": 0.06205019236155617,
+  "attributes_clip_higher_auroc": 73,
+  "mean_delta_ap_clip_minus_sae": 0.01856152990790564,
+  "attributes_clip_higher_ap": 60
+}
