@@ -1,0 +1,11 @@
+{
+  "real_groups": 107,
+  "random_replicates_per_group": 20,
+  "matched_random_groups": 2140,
+  "seed": 49,
+  "matching": "same size; each constituent sampled from its 50 nearest unused atoms by training activation frequency",
+  "training_data_only": true,
+  "mean_absolute_group_frequency_difference": 0.0007022682287829284,
+  "maximum_absolute_group_frequency_difference": 0.022005267441272736,
+  "output": "experiment-results/exp10/matched_random_groups.csv"
+}
