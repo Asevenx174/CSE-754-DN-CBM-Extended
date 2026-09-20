@@ -1,0 +1,40 @@
+{
+  "primary_comparison": "sparse aggregation minus raw maximum AUROC",
+  "rules": {
+    "improved": "delta >= 0.05 and 95% CI lower > 0",
+    "tied": "absolute delta <= 0.005 and 95% CI includes 0",
+    "worsened_point_estimate": "delta <= -0.01; CI need not exclude 0"
+  },
+  "cases_per_protocol_category": 3,
+  "counts": {
+    "A": {
+      "improved": {
+        "eligible": 0,
+        "selected": 0
+      },
+      "tied": {
+        "eligible": 6,
+        "selected": 3
+      },
+      "worsened_point_estimate": {
+        "eligible": 2,
+        "selected": 2
+      }
+    },
+    "B": {
+      "improved": {
+        "eligible": 67,
+        "selected": 3
+      },
+      "tied": {
+        "eligible": 1,
+        "selected": 1
+      },
+      "worsened_point_estimate": {
+        "eligible": 0,
+        "selected": 0
+      }
+    }
+  },
+  "selected_cases": 9
+}
