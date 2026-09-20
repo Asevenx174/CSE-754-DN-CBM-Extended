@@ -1,0 +1,19 @@
+{
+  "A": {
+    "concepts": 14,
+    "mean_single_auroc": 0.6091359096336024,
+    "mean_raw_max_auroc": 0.6262939023491184,
+    "mean_delta_auroc": 0.017157992715515855,
+    "median_delta_auroc": 0.010114249222823335,
+    "raw_max_improved_fraction": 0.5714285714285714
+  },
+  "B": {
+    "concepts": 93,
+    "mean_single_auroc": 0.6824397870830368,
+    "mean_raw_max_auroc": 0.7000466671499327,
+    "mean_delta_auroc": 0.01760688006689588,
+    "median_delta_auroc": 0.011734436484714061,
+    "raw_max_improved_fraction": 0.5913978494623656
+  },
+  "prediction_cache": "data/exp05/baseline_test_predictions.pth"
+}
