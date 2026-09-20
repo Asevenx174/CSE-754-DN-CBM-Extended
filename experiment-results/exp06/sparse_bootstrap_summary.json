@@ -1,0 +1,50 @@
+{
+  "A": {
+    "concepts": 14,
+    "auroc_sparse_minus_single": {
+      "ci_above_zero": 4,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 10
+    },
+    "auroc_sparse_minus_raw_max": {
+      "ci_above_zero": 5,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 9
+    },
+    "ap_sparse_minus_single": {
+      "ci_above_zero": 3,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 11
+    },
+    "ap_sparse_minus_raw_max": {
+      "ci_above_zero": 3,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 11
+    }
+  },
+  "B": {
+    "concepts": 93,
+    "auroc_sparse_minus_single": {
+      "ci_above_zero": 86,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 7
+    },
+    "auroc_sparse_minus_raw_max": {
+      "ci_above_zero": 79,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 14
+    },
+    "ap_sparse_minus_single": {
+      "ci_above_zero": 75,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 18
+    },
+    "ap_sparse_minus_raw_max": {
+      "ci_above_zero": 87,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 6
+    }
+  },
+  "resampling": "paired test-image bootstrap with replacement",
+  "bootstrap_replicates": 2000
+}
