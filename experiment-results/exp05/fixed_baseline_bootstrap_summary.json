@@ -1,0 +1,22 @@
+{
+  "A": {
+    "concepts": 14,
+    "auroc_ci_above_zero": 4,
+    "auroc_ci_below_zero": 1,
+    "auroc_ci_includes_zero": 9,
+    "ap_ci_above_zero": 2,
+    "ap_ci_below_zero": 1,
+    "ap_ci_includes_zero": 11
+  },
+  "B": {
+    "concepts": 93,
+    "auroc_ci_above_zero": 28,
+    "auroc_ci_below_zero": 19,
+    "auroc_ci_includes_zero": 46,
+    "ap_ci_above_zero": 5,
+    "ap_ci_below_zero": 41,
+    "ap_ci_includes_zero": 47
+  },
+  "resampling": "paired test-image bootstrap with replacement",
+  "bootstrap_replicates": 2000
+}
