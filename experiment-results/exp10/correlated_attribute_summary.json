@@ -1,0 +1,12 @@
+{
+  "pair_selection": "six largest absolute training phi correlations",
+  "minimum_training_count_per_2x2_cell": 30,
+  "minimum_test_positives_and_negatives_per_stratum": 10,
+  "pairs_selected": 6,
+  "directional_analyses": 12,
+  "supported_directional_analyses": 12,
+  "mean_drop_to_minimum_conditional_auroc": 0.19985499692096412,
+  "maximum_drop_to_minimum_conditional_auroc": 0.379966677733023,
+  "selection_used_test_outcomes": false,
+  "interpretation": "Conditional degradation can indicate contextual dependence, but does not by itself prove a shortcut or causal mechanism."
+}
