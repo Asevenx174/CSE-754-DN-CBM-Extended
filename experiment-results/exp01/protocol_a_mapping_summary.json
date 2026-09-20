@@ -1,0 +1,18 @@
+{
+  "mapping_policy": "conservative_exact_only_v1",
+  "mapping_frozen_before_semantic_scoring": true,
+  "unique_original_names": 3773,
+  "number_of_atoms": 8192,
+  "exact_name_matches": 25,
+  "predetermined_synonyms": 0,
+  "ambiguous_names": 0,
+  "unmatched_names": 3748,
+  "mapped_atoms": 66,
+  "supported_mapped_attributes": 22,
+  "evaluation_eligible_atoms": 58,
+  "mapping_output": "experiment-results/exp01/protocol_a_sun_mapping.csv",
+  "pairs_output": "experiment-results/exp01/protocol_a_atom_concept_pairs.csv",
+  "mapping_sha256": "e8eeccea9f2e6f545548eb3e1a7287d228b9d332386c30ce14e0f892d92502b0",
+  "pairs_sha256": "601aa84e50199612dea02f862a13d6c19107dfb5040b9dfcb6830d3b57067ce3",
+  "interpretation": "unmatched means unevaluable under the exact-only SUN policy, not semantically incorrect"
+}
