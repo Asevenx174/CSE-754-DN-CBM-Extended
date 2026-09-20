@@ -1,0 +1,10 @@
+protocol,case_category,concept,nonzero_coefficients,positive_coefficients,negative_coefficients,variable_selected_atoms,mean_absolute_pairwise_correlation,maximum_absolute_pairwise_correlation
+A,tied,driving,1,1,0,1,0.0,0.0
+A,tied,sand,0,0,0,0,0.0,0.0
+A,tied,shopping,1,1,0,1,0.0,0.0
+A,worsened_point_estimate,fencing,3,1,2,3,0.02124308643644758,0.025895561984963997
+A,worsened_point_estimate,flowers,1,1,0,1,0.0,0.0
+B,improved,enclosed area,35,12,23,35,0.026878308084625352,0.9999999999999998
+B,improved,ice,61,22,39,61,0.029579498671229363,0.22739325964551735
+B,improved,open area,48,27,21,47,0.041043724422714804,0.64353815076263
+B,tied,working,14,10,4,14,0.04208484072815193,0.4106088810117742
