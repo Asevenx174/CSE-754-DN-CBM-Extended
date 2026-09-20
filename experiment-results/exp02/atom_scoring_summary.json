@@ -1,0 +1,22 @@
+{
+  "A": {
+    "atoms": 58,
+    "concepts": 22,
+    "mean_auroc": 0.5588649881896556,
+    "median_auroc": 0.5108995134933403,
+    "auroc_at_least_0.70": 7,
+    "inverse_auroc": 7,
+    "constant_atoms": 18,
+    "output": "experiment-results/exp02/protocol_a_atom_scores.csv"
+  },
+  "B": {
+    "atoms": 7596,
+    "concepts": 93,
+    "mean_auroc": 0.515499596234528,
+    "median_auroc": 0.5,
+    "auroc_at_least_0.70": 89,
+    "inverse_auroc": 2069,
+    "constant_atoms": 2356,
+    "output": "experiment-results/exp02/protocol_b_atom_scores.csv"
+  }
+}
