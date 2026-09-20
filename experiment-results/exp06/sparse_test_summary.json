@@ -1,0 +1,37 @@
+{
+  "A": {
+    "concepts": 14,
+    "mean_sparse_auroc": 0.6260456428690843,
+    "mean_delta_auroc_vs_single": 0.016909733235481717,
+    "median_delta_auroc_vs_single": 9.181050312156991e-05,
+    "improved_auroc_vs_single_fraction": 0.5,
+    "mean_delta_auroc_vs_raw_max": -0.0002482594800341401,
+    "median_delta_auroc_vs_raw_max": 0.0002951952079528475,
+    "improved_auroc_vs_raw_max_fraction": 0.6428571428571429,
+    "mean_sparse_ap": 0.17946905571353258,
+    "mean_delta_ap_vs_single": 0.025353380661128706,
+    "median_delta_ap_vs_single": 0.0,
+    "improved_ap_vs_single_fraction": 0.35714285714285715,
+    "mean_delta_ap_vs_raw_max": 0.009890334487876786,
+    "median_delta_ap_vs_raw_max": 0.00029534474460639337,
+    "improved_ap_vs_raw_max_fraction": 0.5
+  },
+  "B": {
+    "concepts": 93,
+    "mean_sparse_auroc": 0.8008752187557588,
+    "mean_delta_auroc_vs_single": 0.11843543167272214,
+    "median_delta_auroc_vs_single": 0.11184425242770402,
+    "improved_auroc_vs_single_fraction": 1.0,
+    "mean_delta_auroc_vs_raw_max": 0.10082855160582624,
+    "median_delta_auroc_vs_raw_max": 0.08884479192230832,
+    "improved_auroc_vs_raw_max_fraction": 1.0,
+    "mean_sparse_ap": 0.3371480037065848,
+    "mean_delta_ap_vs_single": 0.10447817074162014,
+    "median_delta_ap_vs_single": 0.07699173234503913,
+    "improved_ap_vs_single_fraction": 1.0,
+    "mean_delta_ap_vs_raw_max": 0.1491955012243128,
+    "median_delta_ap_vs_raw_max": 0.15065839193242342,
+    "improved_ap_vs_raw_max_fraction": 1.0
+  },
+  "prediction_cache": "data/exp06/sparse_test_predictions.pth"
+}
