@@ -1,0 +1,16 @@
+metric,protocol_A,protocol_B
+evaluated_atoms,58,7596
+evaluated_fraction_of_8192,0.007080078125,0.92724609375
+evaluated_attributes,22,93
+unique_assigned_names_in_evaluation,22,93
+mean_geometry_cosine,0.14355349964622793,0.08040457636992061
+median_geometry_cosine,0.14769349247217178,0.07185300067067146
+negative_geometry_cosines,0,195
+mean_test_auroc,0.5588649881896556,0.515499596234528
+median_test_auroc,0.5108995134933403,0.5
+atoms_auroc_at_least_0.70,7,89
+fraction_auroc_at_least_0.70,0.1206896551724138,0.01171669299631385
+inverse_atoms_auroc_below_0.50,7,2069
+mean_test_ap,0.1058745306640895,0.06866169473248578
+mean_activation_frequency,0.04895878420622326,0.06482904457532151
+constant_atoms,18,2356

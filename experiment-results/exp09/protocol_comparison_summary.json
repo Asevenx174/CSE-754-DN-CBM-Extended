@@ -1,0 +1,70 @@
+{
+  "comparison_type": "descriptive; frozen populations remain separate",
+  "A": {
+    "evaluated_atoms": 58,
+    "evaluated_fraction_of_8192": 0.007080078125,
+    "evaluated_attributes": 22,
+    "unique_assigned_names_in_evaluation": 22,
+    "mean_geometry_cosine": 0.14355349964622793,
+    "median_geometry_cosine": 0.14769349247217178,
+    "negative_geometry_cosines": 0,
+    "mean_test_auroc": 0.5588649881896556,
+    "median_test_auroc": 0.5108995134933403,
+    "atoms_auroc_at_least_0.70": 7,
+    "fraction_auroc_at_least_0.70": 0.1206896551724138,
+    "inverse_atoms_auroc_below_0.50": 7,
+    "mean_test_ap": 0.1058745306640895,
+    "mean_activation_frequency": 0.04895878420622326,
+    "constant_atoms": 18
+  },
+  "B": {
+    "evaluated_atoms": 7596,
+    "evaluated_fraction_of_8192": 0.92724609375,
+    "evaluated_attributes": 93,
+    "unique_assigned_names_in_evaluation": 93,
+    "mean_geometry_cosine": 0.08040457636992061,
+    "median_geometry_cosine": 0.07185300067067146,
+    "negative_geometry_cosines": 195,
+    "mean_test_auroc": 0.515499596234528,
+    "median_test_auroc": 0.5,
+    "atoms_auroc_at_least_0.70": 89,
+    "fraction_auroc_at_least_0.70": 0.01171669299631385,
+    "inverse_atoms_auroc_below_0.50": 2069,
+    "mean_test_ap": 0.06866169473248578,
+    "mean_activation_frequency": 0.06482904457532151,
+    "constant_atoms": 2356
+  },
+  "geometry_semantics": {
+    "A": {
+      "atoms": 58,
+      "concepts": 22,
+      "atom_level_rho": -0.04953025150352536,
+      "atom_level_pvalue": 0.7119589035607284,
+      "concept_balanced_rho": -0.05735470101236602,
+      "concept_balanced_pvalue": 0.7998643591724193,
+      "within_concept_correlations": 8
+    },
+    "B": {
+      "atoms": 7596,
+      "concepts": 93,
+      "atom_level_rho": 0.020879525512119152,
+      "atom_level_pvalue": 0.0688116168430394,
+      "concept_balanced_rho": 0.2914714571334785,
+      "concept_balanced_pvalue": 0.004587477933493493,
+      "within_concept_correlations": 93
+    }
+  },
+  "naming_coverage": {
+    "A_original_atoms_named": 8192,
+    "A_unique_original_names": 3773,
+    "A_evaluation_eligible_atoms": 58,
+    "B_sun_atoms_named": 8192,
+    "B_unique_sun_names": 102
+  },
+  "warnings": [
+    "Protocol A searches 20k words; Protocol B searches 102 SUN attributes.",
+    "Do not interpret different cosine distributions as a fair naming-quality comparison.",
+    "Protocol A exclusions mean unevaluable on SUN, not semantically incorrect.",
+    "No assignments or populations were redefined after observing test outcomes."
+  ]
+}
