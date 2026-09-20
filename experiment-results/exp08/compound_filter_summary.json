@@ -1,0 +1,11 @@
+{
+  "status": "documented implementation, not exact reproduction",
+  "sun_attributes": 102,
+  "atoms_before_filtering": 8192,
+  "atoms_retained": 867,
+  "inactive_atoms": 2379,
+  "cosine_below_0.10": 5524,
+  "attributes_with_retained_atoms": 100,
+  "alignment_cutoff": 0.1,
+  "activity_filter": "at least one positive activation on training images"
+}
