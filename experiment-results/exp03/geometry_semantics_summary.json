@@ -1,0 +1,20 @@
+{
+  "A": {
+    "atoms": 58,
+    "concepts": 22,
+    "atom_level_rho": -0.04953025150352536,
+    "atom_level_pvalue": 0.7119589035607284,
+    "concept_balanced_rho": -0.05735470101236602,
+    "concept_balanced_pvalue": 0.7998643591724193,
+    "within_concept_correlations": 8
+  },
+  "B": {
+    "atoms": 7596,
+    "concepts": 93,
+    "atom_level_rho": 0.020879525512119152,
+    "atom_level_pvalue": 0.0688116168430394,
+    "concept_balanced_rho": 0.2914714571334785,
+    "concept_balanced_pvalue": 0.004587477933493493,
+    "within_concept_correlations": 93
+  }
+}
