@@ -1,0 +1,28 @@
+{
+  "random_models_evaluated": 2140,
+  "random_replicates_per_real_group": 20,
+  "empirical_pvalue_minimum": 0.047619047619047616,
+  "selected_model_convergence_warning": "Some liblinear fits reached max_iter during validation tuning.",
+  "A": {
+    "groups": 14,
+    "mean_real_sparse_auroc": 0.6260456428690843,
+    "mean_random_control_auroc": 0.5241775689979215,
+    "mean_delta_auroc_real_minus_random": 0.10186807387116266,
+    "groups_real_above_random_mean_auroc": 11,
+    "groups_real_above_all_random_auroc": 9,
+    "wilcoxon_one_sided_pvalue_auroc": 0.005373391502671929,
+    "mean_delta_ap_real_minus_random": 0.12573576867774724,
+    "groups_real_above_random_mean_ap": 11
+  },
+  "B": {
+    "groups": 93,
+    "mean_real_sparse_auroc": 0.8008752187557588,
+    "mean_random_control_auroc": 0.7100223517543856,
+    "mean_delta_auroc_real_minus_random": 0.09085286700137338,
+    "groups_real_above_random_mean_auroc": 73,
+    "groups_real_above_all_random_auroc": 56,
+    "wilcoxon_one_sided_pvalue_auroc": 3.9418010144123655e-13,
+    "mean_delta_ap_real_minus_random": 0.17932454870635328,
+    "groups_real_above_random_mean_ap": 81
+  }
+}
