@@ -1,0 +1,36 @@
+{
+  "A": {
+    "bootstrap_replicates": 2000,
+    "seed": 49,
+    "resampling": "concepts, then atoms within sampled concepts",
+    "atom_level_rho": {
+      "lower_95": -0.3393926628655604,
+      "median": -0.05000831289419458,
+      "upper_95": 0.27519224090405037,
+      "valid_replicates": 2000
+    },
+    "concept_balanced_rho": {
+      "lower_95": -0.5096610015107924,
+      "median": -0.04822074361146989,
+      "upper_95": 0.3963568107924473,
+      "valid_replicates": 2000
+    }
+  },
+  "B": {
+    "bootstrap_replicates": 2000,
+    "seed": 49,
+    "resampling": "concepts, then atoms within sampled concepts",
+    "atom_level_rho": {
+      "lower_95": -0.01867203921397258,
+      "median": 0.020245619889269338,
+      "upper_95": 0.053825196140389345,
+      "valid_replicates": 2000
+    },
+    "concept_balanced_rho": {
+      "lower_95": 0.03490495658142102,
+      "median": 0.24473307272238964,
+      "upper_95": 0.42332816090239006,
+      "valid_replicates": 2000
+    }
+  }
+}
