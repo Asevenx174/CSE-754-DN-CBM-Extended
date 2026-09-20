@@ -1,0 +1,45 @@
+{
+  "population": "Protocol A eligible same-original-name groups only",
+  "groups": 14,
+  "same_original_name_groups_verified": 14,
+  "mean_single_test_auroc": 0.6091359096336024,
+  "mean_raw_max_test_auroc": 0.6262939023491184,
+  "mean_sparse_test_auroc": 0.6260456428690843,
+  "mean_sparse_minus_single_auroc": 0.016909733235481717,
+  "groups_sparse_above_single": 7,
+  "mean_sparse_minus_raw_max_auroc": -0.0002482594800341401,
+  "groups_sparse_above_raw_max": 9,
+  "fixed_baseline_bootstrap": {
+    "concepts": 14,
+    "auroc_ci_above_zero": 4,
+    "auroc_ci_below_zero": 1,
+    "auroc_ci_includes_zero": 9,
+    "ap_ci_above_zero": 2,
+    "ap_ci_below_zero": 1,
+    "ap_ci_includes_zero": 11
+  },
+  "sparse_bootstrap": {
+    "concepts": 14,
+    "auroc_sparse_minus_single": {
+      "ci_above_zero": 4,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 10
+    },
+    "auroc_sparse_minus_raw_max": {
+      "ci_above_zero": 5,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 9
+    },
+    "ap_sparse_minus_single": {
+      "ci_above_zero": 3,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 11
+    },
+    "ap_sparse_minus_raw_max": {
+      "ci_above_zero": 3,
+      "ci_below_zero": 0,
+      "ci_includes_zero": 11
+    }
+  },
+  "interpretation": "Predictive group recovery for a small exact-match subset; not evidence that all original names are semantically correct or atoms complementary."
+}
