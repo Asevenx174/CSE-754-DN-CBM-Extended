@@ -1,0 +1,27 @@
+{
+  "A": {
+    "models": 14,
+    "median_nonzero_coefficients": 2.5,
+    "zero_atom_models": 2,
+    "selected_C_counts": {
+      "0.001": 5,
+      "0.01": 3,
+      "0.1": 3,
+      "1.0": 0,
+      "10.0": 3
+    }
+  },
+  "B": {
+    "models": 93,
+    "median_nonzero_coefficients": 26.0,
+    "zero_atom_models": 0,
+    "selected_C_counts": {
+      "0.001": 2,
+      "0.01": 66,
+      "0.1": 12,
+      "1.0": 5,
+      "10.0": 8
+    }
+  },
+  "test_metrics_computed": false
+}
