@@ -1,0 +1,25 @@
+{
+  "status": "post hoc exploratory",
+  "rules": {
+    "high_geometry": ">= 0.2",
+    "low_geometry": "< 0.1",
+    "high_detection": ">= 0.7",
+    "low_detection": "<= 0.55",
+    "intermediate_cases": "excluded"
+  },
+  "counts": {
+    "A": {
+      "high_geometry_low_detection": 5,
+      "low_geometry_low_detection": 9,
+      "low_geometry_high_detection": 1,
+      "high_geometry_high_detection": 1
+    },
+    "B": {
+      "low_geometry_low_detection": 4484,
+      "high_geometry_low_detection": 66,
+      "low_geometry_high_detection": 34,
+      "high_geometry_high_detection": 8
+    }
+  },
+  "candidate_table": "experiment-results/exp04/case_candidates.csv"
+}
