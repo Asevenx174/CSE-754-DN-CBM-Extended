@@ -1,0 +1,27 @@
+{
+  "annotation_rule": "retain agreement exactly 0 or 1; exclude 1/3 and 2/3",
+  "selection_changed": false,
+  "split": "test",
+  "A": {
+    "atoms": 58,
+    "attributes": 22,
+    "mean_original_auroc": 0.5588649881896556,
+    "mean_unanimous_auroc": 0.5656845801596558,
+    "mean_delta_auroc": 0.006819591970000341,
+    "median_delta_auroc": 0.0,
+    "fraction_higher_unanimous_auroc": 0.3793103448275862,
+    "mean_delta_ap": -0.012300392752451306,
+    "warning": "AP changes also reflect prevalence changes after filtering."
+  },
+  "B": {
+    "atoms": 7596,
+    "attributes": 93,
+    "mean_original_auroc": 0.515499596234528,
+    "mean_unanimous_auroc": 0.519378738121335,
+    "mean_delta_auroc": 0.0038791418868068636,
+    "median_delta_auroc": 0.0,
+    "fraction_higher_unanimous_auroc": 0.35005265929436546,
+    "mean_delta_ap": -0.02758635249402547,
+    "warning": "AP changes also reflect prevalence changes after filtering."
+  }
+}
