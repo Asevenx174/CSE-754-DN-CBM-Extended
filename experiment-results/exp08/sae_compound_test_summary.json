@@ -1,0 +1,18 @@
+{
+  "status": "documented implementation, not exact reproduction",
+  "test_images": 2868,
+  "threshold_selection_split": "validation",
+  "available_attributes": 100,
+  "unavailable_attributes": [
+    "man-made",
+    "soothing"
+  ],
+  "mean_image_jaccard_available_100": 0.11010811773265473,
+  "mean_image_jaccard_all_102_unavailable_negative": 0.1071481396383392,
+  "images_with_empty_union_available_100": 0,
+  "macro_test_auroc_available_100": 0.7103127132128733,
+  "macro_test_ap_available_100": 0.22241209002071394,
+  "published_sae_jaccard_reference": 0.183,
+  "reference_is_not_a_reproduction_target": true,
+  "prediction_cache": "data/exp08/sae_compound_test_predictions.pth"
+}
