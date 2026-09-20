@@ -1,0 +1,27 @@
+{
+  "A": {
+    "representative_atoms": 22,
+    "observed_concept_balanced_mean_auroc": 0.5555810072501159,
+    "permutation_mean": 0.49999447949363224,
+    "permutation_95_interval": [
+      0.49627894598525274,
+      0.5036796471149304
+    ],
+    "one_sided_permutation_pvalue": 0.000999000999000999
+  },
+  "B": {
+    "representative_atoms": 93,
+    "observed_concept_balanced_mean_auroc": 0.5170531170349938,
+    "permutation_mean": 0.49998892445072135,
+    "permutation_95_interval": [
+      0.4975701348348505,
+      0.5023066866904583
+    ],
+    "one_sided_permutation_pvalue": 0.000999000999000999
+  },
+  "replicates": 1000,
+  "seed": 49,
+  "permutation": "joint test-image row permutation",
+  "test_selection_used": false,
+  "purpose": "evaluation-pipeline sanity check, not a semantic null model"
+}

@@ -1,0 +1,116 @@
+protocol,sun_attribute,representative_atom_id,selection_rule,observed_test_auroc
+A,asphalt,764,smallest atom ID within frozen evaluated attribute,0.5117834347742385
+A,biking,530,smallest atom ID within frozen evaluated attribute,0.5055192604006163
+A,camping,5029,smallest atom ID within frozen evaluated attribute,0.5
+A,carpet,1284,smallest atom ID within frozen evaluated attribute,0.4989357928343384
+A,climbing,3737,smallest atom ID within frozen evaluated attribute,0.49981637899375686
+A,clouds,62,smallest atom ID within frozen evaluated attribute,0.5
+A,diving,689,smallest atom ID within frozen evaluated attribute,0.5
+A,driving,2921,smallest atom ID within frozen evaluated attribute,0.5
+A,farming,7179,smallest atom ID within frozen evaluated attribute,0.8998320648322189
+A,fencing,1053,smallest atom ID within frozen evaluated attribute,0.5116096730213534
+A,flowers,3502,smallest atom ID within frozen evaluated attribute,0.6513639179491463
+A,foliage,3095,smallest atom ID within frozen evaluated attribute,0.5
+A,grass,4190,smallest atom ID within frozen evaluated attribute,0.518759843127567
+A,hiking,845,smallest atom ID within frozen evaluated attribute,0.5
+A,leaves,532,smallest atom ID within frozen evaluated attribute,0.5618315835949764
+A,ocean,2270,smallest atom ID within frozen evaluated attribute,0.6933431972804553
+A,pavement,3845,smallest atom ID within frozen evaluated attribute,0.5041414280469897
+A,reading,545,smallest atom ID within frozen evaluated attribute,0.5
+A,sand,2686,smallest atom ID within frozen evaluated attribute,0.5
+A,shopping,1722,smallest atom ID within frozen evaluated attribute,0.6254576764248575
+A,sports,3924,smallest atom ID within frozen evaluated attribute,0.7403879082220354
+A,trees,1956,smallest atom ID within frozen evaluated attribute,0.5
+B,aged/ worn,58,smallest atom ID within frozen evaluated attribute,0.616132935060725
+B,asphalt,25,smallest atom ID within frozen evaluated attribute,0.4832763191019888
+B,biking,455,smallest atom ID within frozen evaluated attribute,0.5
+B,brick,68,smallest atom ID within frozen evaluated attribute,0.5
+B,camping,95,smallest atom ID within frozen evaluated attribute,0.5881074899942824
+B,carpet,144,smallest atom ID within frozen evaluated attribute,0.5
+B,climbing,69,smallest atom ID within frozen evaluated attribute,0.4544556586928717
+B,cloth,431,smallest atom ID within frozen evaluated attribute,0.5656712127055359
+B,clouds,62,smallest atom ID within frozen evaluated attribute,0.5
+B,cluttered space,72,smallest atom ID within frozen evaluated attribute,0.6265734031132582
+B,cold,254,smallest atom ID within frozen evaluated attribute,0.5
+B,competing,176,smallest atom ID within frozen evaluated attribute,0.5474377917282311
+B,concrete,5,smallest atom ID within frozen evaluated attribute,0.5031817639336437
+B,conducting business,121,smallest atom ID within frozen evaluated attribute,0.498723769787704
+B,congregating,42,smallest atom ID within frozen evaluated attribute,0.49374770136079443
+B,digging,155,smallest atom ID within frozen evaluated attribute,0.5378184811689648
+B,direct sun/sunny,41,smallest atom ID within frozen evaluated attribute,0.5
+B,dirt/soil,229,smallest atom ID within frozen evaluated attribute,0.5
+B,dirty,803,smallest atom ID within frozen evaluated attribute,0.47853535353535354
+B,diving,27,smallest atom ID within frozen evaluated attribute,0.4967034572462675
+B,driving,393,smallest atom ID within frozen evaluated attribute,0.5
+B,dry,377,smallest atom ID within frozen evaluated attribute,0.5010528476602405
+B,eating,23,smallest atom ID within frozen evaluated attribute,0.5
+B,electric/indoor lighting,56,smallest atom ID within frozen evaluated attribute,0.5532820097244733
+B,enclosed area,311,smallest atom ID within frozen evaluated attribute,0.5112590491745387
+B,exercise,306,smallest atom ID within frozen evaluated attribute,0.5351675234487735
+B,far-away horizon,103,smallest atom ID within frozen evaluated attribute,0.5
+B,farming,13,smallest atom ID within frozen evaluated attribute,0.5
+B,fencing,17,smallest atom ID within frozen evaluated attribute,0.5368229047913748
+B,flowers,33,smallest atom ID within frozen evaluated attribute,0.5
+B,foliage,352,smallest atom ID within frozen evaluated attribute,0.524450009055949
+B,glass,166,smallest atom ID within frozen evaluated attribute,0.5176794047168621
+B,glossy,14,smallest atom ID within frozen evaluated attribute,0.499255139342007
+B,grass,118,smallest atom ID within frozen evaluated attribute,0.5002864423329823
+B,hiking,70,smallest atom ID within frozen evaluated attribute,0.5
+B,ice,76,smallest atom ID within frozen evaluated attribute,0.5
+B,leaves,8,smallest atom ID within frozen evaluated attribute,0.5248172586342229
+B,man-made,223,smallest atom ID within frozen evaluated attribute,0.4993219372444356
+B,matte,136,smallest atom ID within frozen evaluated attribute,0.5035836006415397
+B,metal,406,smallest atom ID within frozen evaluated attribute,0.5
+B,moist/ damp,638,smallest atom ID within frozen evaluated attribute,0.5
+B,mostly horizontal components,18,smallest atom ID within frozen evaluated attribute,0.4950987294029303
+B,mostly vertical components,34,smallest atom ID within frozen evaluated attribute,0.5
+B,natural,1242,smallest atom ID within frozen evaluated attribute,0.5
+B,natural light,339,smallest atom ID within frozen evaluated attribute,0.5
+B,no horizon,411,smallest atom ID within frozen evaluated attribute,0.50396668664197
+B,ocean,102,smallest atom ID within frozen evaluated attribute,0.5175622132155712
+B,open area,32,smallest atom ID within frozen evaluated attribute,0.48716844604231313
+B,paper,334,smallest atom ID within frozen evaluated attribute,0.4998212370396854
+B,pavement,0,smallest atom ID within frozen evaluated attribute,0.6023591736009137
+B,playing,208,smallest atom ID within frozen evaluated attribute,0.5606077147016012
+B,praying,159,smallest atom ID within frozen evaluated attribute,0.6885139280893361
+B,railing,10,smallest atom ID within frozen evaluated attribute,0.515040587353291
+B,reading,9,smallest atom ID within frozen evaluated attribute,0.4857807440602243
+B,research,96,smallest atom ID within frozen evaluated attribute,0.5767849538679914
+B,rock/stone,28,smallest atom ID within frozen evaluated attribute,0.5
+B,rubber/ plastic,29,smallest atom ID within frozen evaluated attribute,0.5
+B,rugged scene,128,smallest atom ID within frozen evaluated attribute,0.45777781741325035
+B,running water,227,smallest atom ID within frozen evaluated attribute,0.48263655462184873
+B,rusty,54,smallest atom ID within frozen evaluated attribute,0.5190743134807418
+B,sailing/ boating,16,smallest atom ID within frozen evaluated attribute,0.5
+B,sand,152,smallest atom ID within frozen evaluated attribute,0.6206152386940699
+B,scary,612,smallest atom ID within frozen evaluated attribute,0.5084625322997416
+B,semi-enclosed area,168,smallest atom ID within frozen evaluated attribute,0.49855282199710566
+B,shingles,127,smallest atom ID within frozen evaluated attribute,0.5174705457020118
+B,shopping,7,smallest atom ID within frozen evaluated attribute,0.516518148228646
+B,shrubbery,43,smallest atom ID within frozen evaluated attribute,0.5597603148928271
+B,snow,36,smallest atom ID within frozen evaluated attribute,0.5225160256410256
+B,socializing,189,smallest atom ID within frozen evaluated attribute,0.4941684501120721
+B,soothing,3,smallest atom ID within frozen evaluated attribute,0.498697432080387
+B,spectating/ being in an audience,132,smallest atom ID within frozen evaluated attribute,0.4978477644870325
+B,sports,63,smallest atom ID within frozen evaluated attribute,0.5
+B,sterile,80,smallest atom ID within frozen evaluated attribute,0.4943602396898132
+B,still water,86,smallest atom ID within frozen evaluated attribute,0.5505258168156042
+B,stressful,912,smallest atom ID within frozen evaluated attribute,0.5012502109251561
+B,studying/ learning,46,smallest atom ID within frozen evaluated attribute,0.5
+B,sunbathing,57,smallest atom ID within frozen evaluated attribute,0.623377828854314
+B,swimming,533,smallest atom ID within frozen evaluated attribute,0.5
+B,symmetrical,44,smallest atom ID within frozen evaluated attribute,0.5
+B,teaching/ training,101,smallest atom ID within frozen evaluated attribute,0.5389679715302491
+B,tiles,22,smallest atom ID within frozen evaluated attribute,0.5
+B,transporting things or people,60,smallest atom ID within frozen evaluated attribute,0.5
+B,trees,4,smallest atom ID within frozen evaluated attribute,0.5
+B,using tools,24,smallest atom ID within frozen evaluated attribute,0.5
+B,vacationing/ touring,130,smallest atom ID within frozen evaluated attribute,0.5118380987746008
+B,vegetation,598,smallest atom ID within frozen evaluated attribute,0.5483210587349704
+B,vinyl/ linoleum,6,smallest atom ID within frozen evaluated attribute,0.47921108742004265
+B,waiting in line/ queuing,1,smallest atom ID within frozen evaluated attribute,0.5925878886405203
+B,warm,1318,smallest atom ID within frozen evaluated attribute,0.4997659972770592
+B,waves/ surf,15,smallest atom ID within frozen evaluated attribute,0.5
+B,wire,19,smallest atom ID within frozen evaluated attribute,0.5221515455864301
+B,wood (not part of a tree),37,smallest atom ID within frozen evaluated attribute,0.5
+B,working,1410,smallest atom ID within frozen evaluated attribute,0.49943630214205187
