@@ -1,0 +1,12 @@
+{
+  "A": {
+    "eligible_groups": 14,
+    "minimum_group_size": 2
+  },
+  "B": {
+    "eligible_groups": 93,
+    "minimum_group_size": 2
+  },
+  "selection_split": "validation",
+  "test_metrics_computed": false
+}
